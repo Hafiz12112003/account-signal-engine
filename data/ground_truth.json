@@ -1,0 +1,114 @@
+{
+ "cm-01": {
+  "at_risk": true,
+  "cause": "budget_freeze_with_usage_decline",
+  "difficulty": "easy",
+  "decoy": false,
+  "tenant_id": "t_cloudmetric"
+ },
+ "cm-02": {
+  "at_risk": true,
+  "cause": "champion_left",
+  "difficulty": "medium",
+  "decoy": false,
+  "tenant_id": "t_cloudmetric"
+ },
+ "cm-03": {
+  "at_risk": true,
+  "cause": "renewal_slip_competitor_eval",
+  "difficulty": "easy",
+  "decoy": false,
+  "tenant_id": "t_cloudmetric"
+ },
+ "cm-04": {
+  "at_risk": false,
+  "cause": "planned_shutdown_week",
+  "difficulty": "medium",
+  "decoy": true,
+  "tenant_id": "t_cloudmetric"
+ },
+ "cm-05": {
+  "at_risk": false,
+  "cause": "healthy",
+  "difficulty": "easy",
+  "decoy": false,
+  "tenant_id": "t_cloudmetric"
+ },
+ "cm-06": {
+  "at_risk": false,
+  "cause": "healthy_growing",
+  "difficulty": "easy",
+  "decoy": false,
+  "tenant_id": "t_cloudmetric"
+ },
+ "cm-07": {
+  "at_risk": true,
+  "cause": "silent_disengagement",
+  "difficulty": "hard",
+  "decoy": false,
+  "tenant_id": "t_cloudmetric"
+ },
+ "cm-08": {
+  "at_risk": false,
+  "cause": "healthy",
+  "difficulty": "easy",
+  "decoy": false,
+  "tenant_id": "t_cloudmetric"
+ },
+ "fd-01": {
+  "at_risk": true,
+  "cause": "competitor_adoption_with_usage_decline",
+  "difficulty": "easy",
+  "decoy": false,
+  "tenant_id": "t_flowdesk"
+ },
+ "fd-02": {
+  "at_risk": true,
+  "cause": "champion_reorg_budget_moved",
+  "difficulty": "medium",
+  "decoy": false,
+  "tenant_id": "t_flowdesk"
+ },
+ "fd-03": {
+  "at_risk": true,
+  "cause": "sponsor_leaving_vendor_review",
+  "difficulty": "hard",
+  "decoy": false,
+  "tenant_id": "t_flowdesk"
+ },
+ "fd-04": {
+  "at_risk": false,
+  "cause": "data_migration_temporary_dip",
+  "difficulty": "medium",
+  "decoy": true,
+  "tenant_id": "t_flowdesk"
+ },
+ "fd-05": {
+  "at_risk": false,
+  "cause": "healthy",
+  "difficulty": "easy",
+  "decoy": false,
+  "tenant_id": "t_flowdesk"
+ },
+ "fd-06": {
+  "at_risk": false,
+  "cause": "healthy_growing",
+  "difficulty": "easy",
+  "decoy": false,
+  "tenant_id": "t_flowdesk"
+ },
+ "fd-07": {
+  "at_risk": false,
+  "cause": "procurement_delay_renewal_confirmed",
+  "difficulty": "medium",
+  "decoy": true,
+  "tenant_id": "t_flowdesk"
+ },
+ "fd-08": {
+  "at_risk": false,
+  "cause": "healthy",
+  "difficulty": "easy",
+  "decoy": false,
+  "tenant_id": "t_flowdesk"
+ }
+}

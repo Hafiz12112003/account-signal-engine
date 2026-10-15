@@ -1,0 +1,420 @@
+[
+ {
+  "id": "call-cm-01-1",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-01",
+  "occurred_on": "2026-09-10",
+  "title": "Quarterly check-in",
+  "customer_attendees": [
+   "Anita Rao"
+  ],
+  "csm": "Dev Kapoor",
+  "signal": "indirect",
+  "brief": "Customer says rollout to the second warehouse team is delayed. Mild frustration about onboarding, nothing alarming."
+ },
+ {
+  "id": "call-cm-01-2",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-01",
+  "occurred_on": "2026-10-05",
+  "title": "Renewal prep call",
+  "customer_attendees": [
+   "Anita Rao"
+  ],
+  "csm": "Dev Kapoor",
+  "signal": "explicit",
+  "brief": "Customer says finance froze new software spend until next fiscal year and is reviewing every tool. Asks what happens if they cut seats at renewal."
+ },
+ {
+  "id": "call-cm-02-1",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-02",
+  "occurred_on": "2026-09-14",
+  "title": "Routine product call",
+  "customer_attendees": [
+   "Marcus Lee"
+  ],
+  "csm": "Dev Kapoor",
+  "signal": "indirect",
+  "brief": "Champion Marcus is positive about the product but mentions in passing that he is moving on to a new role soon."
+ },
+ {
+  "id": "call-cm-02-2",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-02",
+  "occurred_on": "2026-10-06",
+  "title": "Intro call with new contact",
+  "customer_attendees": [
+   "Priya Menon"
+  ],
+  "csm": "Dev Kapoor",
+  "signal": "explicit",
+  "brief": "An interim contact who is new admits she has not used the product and asks basic questions about why the company pays for it."
+ },
+ {
+  "id": "call-cm-03-1",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-03",
+  "occurred_on": "2026-09-16",
+  "title": "Executive sponsor call",
+  "customer_attendees": [
+   "Sunita Verma"
+  ],
+  "csm": "Ria Shah",
+  "signal": "indirect",
+  "brief": "Sponsor is positive on the product but asks detailed pricing comparison questions and hints procurement is looking at the market."
+ },
+ {
+  "id": "call-cm-03-2",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-03",
+  "occurred_on": "2026-10-07",
+  "title": "Renewal status call",
+  "customer_attendees": [
+   "Sunita Verma"
+  ],
+  "csm": "Ria Shah",
+  "signal": "explicit",
+  "brief": "Legal and procurement review of the renewal is taking longer, a competitor was invited to present, and the decision may slip past the renewal date."
+ },
+ {
+  "id": "call-cm-04-1",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-04",
+  "occurred_on": "2026-09-04",
+  "title": "Planning call",
+  "customer_attendees": [
+   "Tom Becker"
+  ],
+  "csm": "Ria Shah",
+  "signal": "none",
+  "brief": "Customer mentions their whole company will be on a planned shutdown week for the annual offsite and asks if anything needs doing before then."
+ },
+ {
+  "id": "call-cm-04-2",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-04",
+  "occurred_on": "2026-10-08",
+  "title": "Post-offsite check-in",
+  "customer_attendees": [
+   "Tom Becker"
+  ],
+  "csm": "Ria Shah",
+  "signal": "none",
+  "brief": "Team is back and busy, asks about new reporting features, positive tone."
+ },
+ {
+  "id": "call-cm-05-1",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-05",
+  "occurred_on": "2026-09-14",
+  "title": "Onboarding call",
+  "customer_attendees": [
+   "Farah Iqbal"
+  ],
+  "csm": "Dev Kapoor",
+  "signal": "none",
+  "brief": "Onboarding three new team members, asks how to set up dashboards."
+ },
+ {
+  "id": "call-cm-05-2",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-05",
+  "occurred_on": "2026-10-04",
+  "title": "Billing call",
+  "customer_attendees": [
+   "Farah Iqbal"
+  ],
+  "csm": "Dev Kapoor",
+  "signal": "none",
+  "brief": "Short call about invoice formatting, mentions they plan to keep the plan as is."
+ },
+ {
+  "id": "call-cm-06-1",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-06",
+  "occurred_on": "2026-09-19",
+  "title": "Adoption review",
+  "customer_attendees": [
+   "Greg Salazar"
+  ],
+  "csm": "Ria Shah",
+  "signal": "none",
+  "brief": "Customer is excited about adoption across departments and asks about adding 40 seats."
+ },
+ {
+  "id": "call-cm-06-2",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-06",
+  "occurred_on": "2026-10-09",
+  "title": "Expansion pricing",
+  "customer_attendees": [
+   "Greg Salazar"
+  ],
+  "csm": "Ria Shah",
+  "signal": "none",
+  "brief": "Pricing discussion for the expansion, customer wants a multi-year deal."
+ },
+ {
+  "id": "call-cm-07-1",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-07",
+  "occurred_on": "2026-09-14",
+  "title": "Quarterly check-in",
+  "customer_attendees": [
+   "Nina Petrov"
+  ],
+  "csm": "Dev Kapoor",
+  "signal": "indirect",
+  "brief": "Normal-sounding call, but the champion keeps saying things are a bit up in the air internally and that priorities are being re-looked at by leadership. No explicit complaint about the product."
+ },
+ {
+  "id": "call-cm-07-2",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-07",
+  "occurred_on": "2026-10-06",
+  "title": "Follow-up call",
+  "customer_attendees": [
+   "Nina Petrov"
+  ],
+  "csm": "Dev Kapoor",
+  "signal": "indirect",
+  "brief": "Champion is less engaged, has cancelled the last two scheduled calls, says lets see how next quarter shapes up and steers away from renewal talk. Never says anything negative about the product."
+ },
+ {
+  "id": "call-cm-08-1",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-08",
+  "occurred_on": "2026-09-22",
+  "title": "Support follow-up",
+  "customer_attendees": [
+   "Raj Malhotra"
+  ],
+  "csm": "Ria Shah",
+  "signal": "none",
+  "brief": "Routine call, a small bug was reported and resolved, customer is happy."
+ },
+ {
+  "id": "call-cm-08-2",
+  "tenant_id": "t_cloudmetric",
+  "account_id": "cm-08",
+  "occurred_on": "2026-10-10",
+  "title": "Catch-up",
+  "customer_attendees": [
+   "Raj Malhotra"
+  ],
+  "csm": "Ria Shah",
+  "signal": "none",
+  "brief": "Quick catch-up, customer says all good and see you at renewal."
+ },
+ {
+  "id": "call-fd-01-1",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-01",
+  "occurred_on": "2026-09-11",
+  "title": "Quarterly check-in",
+  "customer_attendees": [
+   "Helen Cho"
+  ],
+  "csm": "Sam Ortiz",
+  "signal": "explicit",
+  "brief": "Customer says the team has been using a competitor tool for new projects because it integrates better with their stack."
+ },
+ {
+  "id": "call-fd-01-2",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-01",
+  "occurred_on": "2026-10-04",
+  "title": "Escalation call",
+  "customer_attendees": [
+   "Helen Cho"
+  ],
+  "csm": "Sam Ortiz",
+  "signal": "explicit",
+  "brief": "Customer complains about two unresolved support tickets, says adoption is falling and their VP is asking whether to consolidate tools."
+ },
+ {
+  "id": "call-fd-02-1",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-02",
+  "occurred_on": "2026-09-15",
+  "title": "Product call",
+  "customer_attendees": [
+   "Vikram Nair"
+  ],
+  "csm": "Sam Ortiz",
+  "signal": "indirect",
+  "brief": "Champion Vikram mentions a reorg and that he may be changing teams."
+ },
+ {
+  "id": "call-fd-02-2",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-02",
+  "occurred_on": "2026-10-05",
+  "title": "Stakeholder intro",
+  "customer_attendees": [
+   "Vikram Nair",
+   "Joel Briggs"
+  ],
+  "csm": "Sam Ortiz",
+  "signal": "explicit",
+  "brief": "A new stakeholder joins and says budget has been moved to another initiative and renewal timing is uncertain."
+ },
+ {
+  "id": "call-fd-03-1",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-03",
+  "occurred_on": "2026-09-17",
+  "title": "Executive check-in",
+  "customer_attendees": [
+   "Alicia Gomez"
+  ],
+  "csm": "Mei Tan",
+  "signal": "indirect",
+  "brief": "Friendly call, but the executive sponsor mentions in passing that she leaves the company at month end and that her replacement has their own preferred vendors."
+ },
+ {
+  "id": "call-fd-03-2",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-03",
+  "occurred_on": "2026-10-07",
+  "title": "Call with incoming owner",
+  "customer_attendees": [
+   "Alicia Gomez",
+   "Daniel Okafor"
+  ],
+  "csm": "Mei Tan",
+  "signal": "indirect",
+  "brief": "The incoming owner is polite and noncommittal and asks for a list of all contracts and costs in the account without saying why."
+ },
+ {
+  "id": "call-fd-04-1",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-04",
+  "occurred_on": "2026-09-07",
+  "title": "Planning call",
+  "customer_attendees": [
+   "Peter Hanson"
+  ],
+  "csm": "Mei Tan",
+  "signal": "none",
+  "brief": "Customer explains they are migrating their data warehouse over the next few weeks so usage will temporarily drop, and they plan to resume fully afterwards."
+ },
+ {
+  "id": "call-fd-04-2",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-04",
+  "occurred_on": "2026-10-09",
+  "title": "Post-migration call",
+  "customer_attendees": [
+   "Peter Hanson"
+  ],
+  "csm": "Mei Tan",
+  "signal": "none",
+  "brief": "Migration is finished, the team is ramping back up, and they ask for help reconnecting integrations."
+ },
+ {
+  "id": "call-fd-05-1",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-05",
+  "occurred_on": "2026-09-16",
+  "title": "Routine check-in",
+  "customer_attendees": [
+   "Lina Haddad"
+  ],
+  "csm": "Sam Ortiz",
+  "signal": "none",
+  "brief": "Routine check-in, asks about training resources."
+ },
+ {
+  "id": "call-fd-05-2",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-05",
+  "occurred_on": "2026-10-08",
+  "title": "Billing question",
+  "customer_attendees": [
+   "Lina Haddad"
+  ],
+  "csm": "Sam Ortiz",
+  "signal": "none",
+  "brief": "Positive call, asks about an annual billing discount."
+ },
+ {
+  "id": "call-fd-06-1",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-06",
+  "occurred_on": "2026-09-18",
+  "title": "Expansion call",
+  "customer_attendees": [
+   "Omar Siddiqui"
+  ],
+  "csm": "Mei Tan",
+  "signal": "none",
+  "brief": "Expanding to a second lab team, asks about enterprise features."
+ },
+ {
+  "id": "call-fd-06-2",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-06",
+  "occurred_on": "2026-10-10",
+  "title": "Reference call",
+  "customer_attendees": [
+   "Omar Siddiqui"
+  ],
+  "csm": "Mei Tan",
+  "signal": "none",
+  "brief": "Champion offers to be a reference customer."
+ },
+ {
+  "id": "call-fd-07-1",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-07",
+  "occurred_on": "2026-09-20",
+  "title": "Renewal logistics",
+  "customer_attendees": [
+   "Beth Walker"
+  ],
+  "csm": "Sam Ortiz",
+  "signal": "none",
+  "brief": "Customer says procurement requires an extra vendor-security review this year, which delays signing paperwork, but they confirm they are renewing."
+ },
+ {
+  "id": "call-fd-07-2",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-07",
+  "occurred_on": "2026-10-09",
+  "title": "Security review follow-up",
+  "customer_attendees": [
+   "Beth Walker"
+  ],
+  "csm": "Sam Ortiz",
+  "signal": "none",
+  "brief": "Security questionnaire answered, signature expected in two weeks, customer is happy."
+ },
+ {
+  "id": "call-fd-08-1",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-08",
+  "occurred_on": "2026-09-24",
+  "title": "Routine call",
+  "customer_attendees": [
+   "Carlos Rivera"
+  ],
+  "csm": "Mei Tan",
+  "signal": "none",
+  "brief": "Routine call with a small feature request."
+ },
+ {
+  "id": "call-fd-08-2",
+  "tenant_id": "t_flowdesk",
+  "account_id": "fd-08",
+  "occurred_on": "2026-10-11",
+  "title": "Renewal intent",
+  "customer_attendees": [
+   "Carlos Rivera"
+  ],
+  "csm": "Mei Tan",
+  "signal": "none",
+  "brief": "Short call confirming they intend to renew."
+ }
+]

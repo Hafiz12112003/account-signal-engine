@@ -1,0 +1,8178 @@
+{
+ "tenants": [
+  {
+   "id": "t_cloudmetric",
+   "name": "CloudMetric"
+  },
+  {
+   "id": "t_flowdesk",
+   "name": "FlowDesk"
+  }
+ ],
+ "accounts": [
+  {
+   "id": "cm-01",
+   "tenant_id": "t_cloudmetric",
+   "name": "Brightwave Logistics",
+   "segment": "Mid-market",
+   "arr": 84000,
+   "renewal_date": "2026-11-28",
+   "owner": "Dev Kapoor"
+  },
+  {
+   "id": "cm-02",
+   "tenant_id": "t_cloudmetric",
+   "name": "Harbor and Pine Retail",
+   "segment": "Mid-market",
+   "arr": 62000,
+   "renewal_date": "2026-12-03",
+   "owner": "Dev Kapoor"
+  },
+  {
+   "id": "cm-03",
+   "tenant_id": "t_cloudmetric",
+   "name": "Orchid Health Partners",
+   "segment": "Enterprise",
+   "arr": 210000,
+   "renewal_date": "2026-11-21",
+   "owner": "Ria Shah"
+  },
+  {
+   "id": "cm-04",
+   "tenant_id": "t_cloudmetric",
+   "name": "Kestrel Foods",
+   "segment": "Mid-market",
+   "arr": 58000,
+   "renewal_date": "2026-12-23",
+   "owner": "Ria Shah"
+  },
+  {
+   "id": "cm-05",
+   "tenant_id": "t_cloudmetric",
+   "name": "Lumen Education",
+   "segment": "SMB",
+   "arr": 24000,
+   "renewal_date": "2027-01-07",
+   "owner": "Dev Kapoor"
+  },
+  {
+   "id": "cm-06",
+   "tenant_id": "t_cloudmetric",
+   "name": "Atlas Freight",
+   "segment": "Enterprise",
+   "arr": 175000,
+   "renewal_date": "2027-01-12",
+   "owner": "Ria Shah"
+  },
+  {
+   "id": "cm-07",
+   "tenant_id": "t_cloudmetric",
+   "name": "Sable Studios",
+   "segment": "Mid-market",
+   "arr": 71000,
+   "renewal_date": "2026-11-25",
+   "owner": "Dev Kapoor"
+  },
+  {
+   "id": "cm-08",
+   "tenant_id": "t_cloudmetric",
+   "name": "Quill Legal",
+   "segment": "SMB",
+   "arr": 31000,
+   "renewal_date": "2026-12-28",
+   "owner": "Ria Shah"
+  },
+  {
+   "id": "fd-01",
+   "tenant_id": "t_flowdesk",
+   "name": "Tidewater Insurance",
+   "segment": "Enterprise",
+   "arr": 240000,
+   "renewal_date": "2026-11-23",
+   "owner": "Sam Ortiz"
+  },
+  {
+   "id": "fd-02",
+   "tenant_id": "t_flowdesk",
+   "name": "Northgate Robotics",
+   "segment": "Mid-market",
+   "arr": 96000,
+   "renewal_date": "2026-11-18",
+   "owner": "Sam Ortiz"
+  },
+  {
+   "id": "fd-03",
+   "tenant_id": "t_flowdesk",
+   "name": "Fernhill Media",
+   "segment": "Mid-market",
+   "arr": 67000,
+   "renewal_date": "2026-12-01",
+   "owner": "Mei Tan"
+  },
+  {
+   "id": "fd-04",
+   "tenant_id": "t_flowdesk",
+   "name": "Copperline Energy",
+   "segment": "Enterprise",
+   "arr": 188000,
+   "renewal_date": "2026-12-19",
+   "owner": "Mei Tan"
+  },
+  {
+   "id": "fd-05",
+   "tenant_id": "t_flowdesk",
+   "name": "Juniper Travel",
+   "segment": "SMB",
+   "arr": 29000,
+   "renewal_date": "2027-01-02",
+   "owner": "Sam Ortiz"
+  },
+  {
+   "id": "fd-06",
+   "tenant_id": "t_flowdesk",
+   "name": "Redwood Biotech",
+   "segment": "Mid-market",
+   "arr": 89000,
+   "renewal_date": "2027-01-10",
+   "owner": "Mei Tan"
+  },
+  {
+   "id": "fd-07",
+   "tenant_id": "t_flowdesk",
+   "name": "Granite Builders",
+   "segment": "Mid-market",
+   "arr": 54000,
+   "renewal_date": "2026-11-13",
+   "owner": "Sam Ortiz"
+  },
+  {
+   "id": "fd-08",
+   "tenant_id": "t_flowdesk",
+   "name": "Meridian Pet Care",
+   "segment": "SMB",
+   "arr": 22000,
+   "renewal_date": "2026-12-25",
+   "owner": "Mei Tan"
+  }
+ ],
+ "usage_events": [
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-16",
+   "active_users": 37,
+   "feature_events": 525
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-17",
+   "active_users": 116,
+   "feature_events": 1831
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-18",
+   "active_users": 125,
+   "feature_events": 2427
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-19",
+   "active_users": 128,
+   "feature_events": 1881
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-20",
+   "active_users": 119,
+   "feature_events": 1694
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-21",
+   "active_users": 115,
+   "feature_events": 2075
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-22",
+   "active_users": 33,
+   "feature_events": 514
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-23",
+   "active_users": 37,
+   "feature_events": 679
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-24",
+   "active_users": 115,
+   "feature_events": 2152
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-25",
+   "active_users": 126,
+   "feature_events": 1771
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-26",
+   "active_users": 126,
+   "feature_events": 2468
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-27",
+   "active_users": 117,
+   "feature_events": 1784
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-28",
+   "active_users": 129,
+   "feature_events": 2153
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-29",
+   "active_users": 34,
+   "feature_events": 502
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-30",
+   "active_users": 38,
+   "feature_events": 716
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-08-31",
+   "active_users": 126,
+   "feature_events": 2500
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-01",
+   "active_users": 121,
+   "feature_events": 2636
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-02",
+   "active_users": 118,
+   "feature_events": 2173
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-03",
+   "active_users": 126,
+   "feature_events": 2387
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-04",
+   "active_users": 127,
+   "feature_events": 2365
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-05",
+   "active_users": 37,
+   "feature_events": 532
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-06",
+   "active_users": 34,
+   "feature_events": 555
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-07",
+   "active_users": 112,
+   "feature_events": 1777
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-08",
+   "active_users": 112,
+   "feature_events": 1817
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-09",
+   "active_users": 123,
+   "feature_events": 2081
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-10",
+   "active_users": 118,
+   "feature_events": 1850
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-11",
+   "active_users": 116,
+   "feature_events": 2493
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-12",
+   "active_users": 37,
+   "feature_events": 698
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-13",
+   "active_users": 34,
+   "feature_events": 674
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-14",
+   "active_users": 112,
+   "feature_events": 1908
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-15",
+   "active_users": 126,
+   "feature_events": 2409
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-16",
+   "active_users": 116,
+   "feature_events": 2259
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-17",
+   "active_users": 119,
+   "feature_events": 2405
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-18",
+   "active_users": 106,
+   "feature_events": 1511
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-19",
+   "active_users": 32,
+   "feature_events": 517
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-20",
+   "active_users": 31,
+   "feature_events": 668
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-21",
+   "active_users": 112,
+   "feature_events": 1850
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-22",
+   "active_users": 107,
+   "feature_events": 1837
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-23",
+   "active_users": 109,
+   "feature_events": 1926
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-24",
+   "active_users": 97,
+   "feature_events": 1549
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-25",
+   "active_users": 100,
+   "feature_events": 1610
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-26",
+   "active_users": 30,
+   "feature_events": 635
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-27",
+   "active_users": 28,
+   "feature_events": 441
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-28",
+   "active_users": 101,
+   "feature_events": 1826
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-29",
+   "active_users": 86,
+   "feature_events": 1236
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-09-30",
+   "active_users": 85,
+   "feature_events": 1617
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-01",
+   "active_users": 93,
+   "feature_events": 1616
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-02",
+   "active_users": 81,
+   "feature_events": 1381
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-03",
+   "active_users": 28,
+   "feature_events": 511
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-04",
+   "active_users": 27,
+   "feature_events": 564
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-05",
+   "active_users": 75,
+   "feature_events": 1482
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-06",
+   "active_users": 82,
+   "feature_events": 1500
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-07",
+   "active_users": 75,
+   "feature_events": 1435
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-08",
+   "active_users": 72,
+   "feature_events": 1258
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-09",
+   "active_users": 74,
+   "feature_events": 1601
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-10",
+   "active_users": 23,
+   "feature_events": 370
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-11",
+   "active_users": 21,
+   "feature_events": 324
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-12",
+   "active_users": 74,
+   "feature_events": 1551
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-13",
+   "active_users": 66,
+   "feature_events": 1261
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "occurred_on": "2026-10-14",
+   "active_users": 67,
+   "feature_events": 1020
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-16",
+   "active_users": 25,
+   "feature_events": 458
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-17",
+   "active_users": 84,
+   "feature_events": 1532
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-18",
+   "active_users": 74,
+   "feature_events": 1228
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-19",
+   "active_users": 74,
+   "feature_events": 1586
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-20",
+   "active_users": 85,
+   "feature_events": 1756
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-21",
+   "active_users": 78,
+   "feature_events": 1128
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-22",
+   "active_users": 25,
+   "feature_events": 539
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-23",
+   "active_users": 22,
+   "feature_events": 394
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-24",
+   "active_users": 74,
+   "feature_events": 1486
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-25",
+   "active_users": 83,
+   "feature_events": 1247
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-26",
+   "active_users": 80,
+   "feature_events": 1472
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-27",
+   "active_users": 77,
+   "feature_events": 1615
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-28",
+   "active_users": 79,
+   "feature_events": 1240
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-29",
+   "active_users": 24,
+   "feature_events": 476
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-30",
+   "active_users": 23,
+   "feature_events": 379
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-08-31",
+   "active_users": 86,
+   "feature_events": 1651
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-01",
+   "active_users": 79,
+   "feature_events": 1433
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-02",
+   "active_users": 75,
+   "feature_events": 1185
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-03",
+   "active_users": 78,
+   "feature_events": 1459
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-04",
+   "active_users": 77,
+   "feature_events": 1214
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-05",
+   "active_users": 22,
+   "feature_events": 419
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-06",
+   "active_users": 23,
+   "feature_events": 489
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-07",
+   "active_users": 85,
+   "feature_events": 1238
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-08",
+   "active_users": 77,
+   "feature_events": 1490
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-09",
+   "active_users": 76,
+   "feature_events": 1144
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-10",
+   "active_users": 86,
+   "feature_events": 1597
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-11",
+   "active_users": 80,
+   "feature_events": 1622
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-12",
+   "active_users": 25,
+   "feature_events": 388
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-13",
+   "active_users": 22,
+   "feature_events": 384
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-14",
+   "active_users": 79,
+   "feature_events": 1401
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-15",
+   "active_users": 82,
+   "feature_events": 1590
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-16",
+   "active_users": 85,
+   "feature_events": 1257
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-17",
+   "active_users": 77,
+   "feature_events": 1287
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-18",
+   "active_users": 83,
+   "feature_events": 1327
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-19",
+   "active_users": 22,
+   "feature_events": 387
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-20",
+   "active_users": 23,
+   "feature_events": 373
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-21",
+   "active_users": 74,
+   "feature_events": 1583
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-22",
+   "active_users": 76,
+   "feature_events": 1588
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-23",
+   "active_users": 77,
+   "feature_events": 1109
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-24",
+   "active_users": 82,
+   "feature_events": 1696
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-25",
+   "active_users": 81,
+   "feature_events": 1734
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-26",
+   "active_users": 24,
+   "feature_events": 368
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-27",
+   "active_users": 22,
+   "feature_events": 346
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-28",
+   "active_users": 73,
+   "feature_events": 1056
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-29",
+   "active_users": 72,
+   "feature_events": 1576
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-09-30",
+   "active_users": 71,
+   "feature_events": 1439
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-01",
+   "active_users": 73,
+   "feature_events": 1269
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-02",
+   "active_users": 78,
+   "feature_events": 1713
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-03",
+   "active_users": 22,
+   "feature_events": 434
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-04",
+   "active_users": 20,
+   "feature_events": 327
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-05",
+   "active_users": 77,
+   "feature_events": 1435
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-06",
+   "active_users": 72,
+   "feature_events": 1439
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-07",
+   "active_users": 66,
+   "feature_events": 1232
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-08",
+   "active_users": 70,
+   "feature_events": 1458
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-09",
+   "active_users": 66,
+   "feature_events": 1431
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-10",
+   "active_users": 19,
+   "feature_events": 294
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-11",
+   "active_users": 21,
+   "feature_events": 407
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-12",
+   "active_users": 66,
+   "feature_events": 987
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-13",
+   "active_users": 73,
+   "feature_events": 1166
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "occurred_on": "2026-10-14",
+   "active_users": 69,
+   "feature_events": 1308
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-16",
+   "active_users": 89,
+   "feature_events": 1662
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-17",
+   "active_users": 301,
+   "feature_events": 6465
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-18",
+   "active_users": 286,
+   "feature_events": 5643
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-19",
+   "active_users": 287,
+   "feature_events": 4927
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-20",
+   "active_users": 308,
+   "feature_events": 5051
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-21",
+   "active_users": 291,
+   "feature_events": 5824
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-22",
+   "active_users": 84,
+   "feature_events": 1484
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-23",
+   "active_users": 97,
+   "feature_events": 2131
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-24",
+   "active_users": 280,
+   "feature_events": 4397
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-25",
+   "active_users": 289,
+   "feature_events": 6204
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-26",
+   "active_users": 318,
+   "feature_events": 6689
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-27",
+   "active_users": 294,
+   "feature_events": 4487
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-28",
+   "active_users": 316,
+   "feature_events": 6203
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-29",
+   "active_users": 92,
+   "feature_events": 2015
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-30",
+   "active_users": 92,
+   "feature_events": 1294
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-08-31",
+   "active_users": 315,
+   "feature_events": 5164
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-01",
+   "active_users": 308,
+   "feature_events": 6626
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-02",
+   "active_users": 282,
+   "feature_events": 4208
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-03",
+   "active_users": 281,
+   "feature_events": 5178
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-04",
+   "active_users": 289,
+   "feature_events": 5444
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-05",
+   "active_users": 93,
+   "feature_events": 1453
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-06",
+   "active_users": 92,
+   "feature_events": 1482
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-07",
+   "active_users": 299,
+   "feature_events": 6352
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-08",
+   "active_users": 317,
+   "feature_events": 4672
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-09",
+   "active_users": 296,
+   "feature_events": 4799
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-10",
+   "active_users": 276,
+   "feature_events": 5567
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-11",
+   "active_users": 307,
+   "feature_events": 4941
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-12",
+   "active_users": 93,
+   "feature_events": 1712
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-13",
+   "active_users": 89,
+   "feature_events": 1253
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-14",
+   "active_users": 280,
+   "feature_events": 5898
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-15",
+   "active_users": 319,
+   "feature_events": 5858
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-16",
+   "active_users": 316,
+   "feature_events": 5897
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-17",
+   "active_users": 283,
+   "feature_events": 4251
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-18",
+   "active_users": 291,
+   "feature_events": 6167
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-19",
+   "active_users": 94,
+   "feature_events": 1963
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-20",
+   "active_users": 96,
+   "feature_events": 1505
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-21",
+   "active_users": 288,
+   "feature_events": 4269
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-22",
+   "active_users": 313,
+   "feature_events": 6596
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-23",
+   "active_users": 296,
+   "feature_events": 5614
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-24",
+   "active_users": 283,
+   "feature_events": 6067
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-25",
+   "active_users": 318,
+   "feature_events": 6935
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-26",
+   "active_users": 94,
+   "feature_events": 1979
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-27",
+   "active_users": 83,
+   "feature_events": 1651
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-28",
+   "active_users": 292,
+   "feature_events": 6262
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-29",
+   "active_users": 315,
+   "feature_events": 6587
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-09-30",
+   "active_users": 315,
+   "feature_events": 5082
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-01",
+   "active_users": 314,
+   "feature_events": 4668
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-02",
+   "active_users": 318,
+   "feature_events": 6636
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-03",
+   "active_users": 86,
+   "feature_events": 1766
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-04",
+   "active_users": 89,
+   "feature_events": 1463
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-05",
+   "active_users": 314,
+   "feature_events": 4968
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-06",
+   "active_users": 277,
+   "feature_events": 4306
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-07",
+   "active_users": 292,
+   "feature_events": 6107
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-08",
+   "active_users": 322,
+   "feature_events": 5227
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-09",
+   "active_users": 307,
+   "feature_events": 5280
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-10",
+   "active_users": 97,
+   "feature_events": 1774
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-11",
+   "active_users": 96,
+   "feature_events": 1433
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-12",
+   "active_users": 323,
+   "feature_events": 4983
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-13",
+   "active_users": 322,
+   "feature_events": 5192
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "occurred_on": "2026-10-14",
+   "active_users": 281,
+   "feature_events": 4911
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-16",
+   "active_users": 30,
+   "feature_events": 495
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-17",
+   "active_users": 97,
+   "feature_events": 1755
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-18",
+   "active_users": 93,
+   "feature_events": 1731
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-19",
+   "active_users": 91,
+   "feature_events": 1790
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-20",
+   "active_users": 87,
+   "feature_events": 1862
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-21",
+   "active_users": 96,
+   "feature_events": 1897
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-22",
+   "active_users": 30,
+   "feature_events": 581
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-23",
+   "active_users": 28,
+   "feature_events": 408
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-24",
+   "active_users": 97,
+   "feature_events": 1614
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-25",
+   "active_users": 92,
+   "feature_events": 1912
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-26",
+   "active_users": 98,
+   "feature_events": 1607
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-27",
+   "active_users": 92,
+   "feature_events": 1589
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-28",
+   "active_users": 94,
+   "feature_events": 1538
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-29",
+   "active_users": 27,
+   "feature_events": 469
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-30",
+   "active_users": 31,
+   "feature_events": 602
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-08-31",
+   "active_users": 101,
+   "feature_events": 1911
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-01",
+   "active_users": 92,
+   "feature_events": 1691
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-02",
+   "active_users": 87,
+   "feature_events": 1418
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-03",
+   "active_users": 94,
+   "feature_events": 1752
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-04",
+   "active_users": 97,
+   "feature_events": 1719
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-05",
+   "active_users": 28,
+   "feature_events": 440
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-06",
+   "active_users": 28,
+   "feature_events": 594
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-07",
+   "active_users": 99,
+   "feature_events": 1520
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-08",
+   "active_users": 89,
+   "feature_events": 1613
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-09",
+   "active_users": 97,
+   "feature_events": 1618
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-10",
+   "active_users": 100,
+   "feature_events": 2001
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-11",
+   "active_users": 98,
+   "feature_events": 1548
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-12",
+   "active_users": 27,
+   "feature_events": 383
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-13",
+   "active_users": 27,
+   "feature_events": 481
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-14",
+   "active_users": 100,
+   "feature_events": 1458
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-15",
+   "active_users": 94,
+   "feature_events": 1790
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-16",
+   "active_users": 90,
+   "feature_events": 1761
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-17",
+   "active_users": 95,
+   "feature_events": 1515
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-18",
+   "active_users": 97,
+   "feature_events": 1362
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-19",
+   "active_users": 30,
+   "feature_events": 605
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-20",
+   "active_users": 27,
+   "feature_events": 470
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-21",
+   "active_users": 90,
+   "feature_events": 1950
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-22",
+   "active_users": 95,
+   "feature_events": 1368
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-23",
+   "active_users": 23,
+   "feature_events": 478
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-24",
+   "active_users": 24,
+   "feature_events": 490
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-25",
+   "active_users": 24,
+   "feature_events": 526
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-26",
+   "active_users": 7,
+   "feature_events": 151
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-27",
+   "active_users": 8,
+   "feature_events": 151
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-28",
+   "active_users": 25,
+   "feature_events": 451
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-29",
+   "active_users": 25,
+   "feature_events": 460
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-09-30",
+   "active_users": 101,
+   "feature_events": 2015
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-01",
+   "active_users": 95,
+   "feature_events": 1527
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-02",
+   "active_users": 91,
+   "feature_events": 1738
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-03",
+   "active_users": 30,
+   "feature_events": 545
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-04",
+   "active_users": 29,
+   "feature_events": 470
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-05",
+   "active_users": 89,
+   "feature_events": 1449
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-06",
+   "active_users": 92,
+   "feature_events": 1523
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-07",
+   "active_users": 96,
+   "feature_events": 1450
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-08",
+   "active_users": 91,
+   "feature_events": 1779
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-09",
+   "active_users": 98,
+   "feature_events": 1422
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-10",
+   "active_users": 28,
+   "feature_events": 514
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-11",
+   "active_users": 28,
+   "feature_events": 438
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-12",
+   "active_users": 94,
+   "feature_events": 1996
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-13",
+   "active_users": 96,
+   "feature_events": 1878
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "occurred_on": "2026-10-14",
+   "active_users": 100,
+   "feature_events": 2012
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-16",
+   "active_users": 12,
+   "feature_events": 169
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-17",
+   "active_users": 39,
+   "feature_events": 781
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-18",
+   "active_users": 42,
+   "feature_events": 908
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-19",
+   "active_users": 39,
+   "feature_events": 779
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-20",
+   "active_users": 40,
+   "feature_events": 753
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-21",
+   "active_users": 38,
+   "feature_events": 599
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-22",
+   "active_users": 12,
+   "feature_events": 171
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-23",
+   "active_users": 12,
+   "feature_events": 233
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-24",
+   "active_users": 39,
+   "feature_events": 597
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-25",
+   "active_users": 40,
+   "feature_events": 601
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-26",
+   "active_users": 41,
+   "feature_events": 583
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-27",
+   "active_users": 39,
+   "feature_events": 722
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-28",
+   "active_users": 37,
+   "feature_events": 708
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-29",
+   "active_users": 11,
+   "feature_events": 195
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-30",
+   "active_users": 11,
+   "feature_events": 187
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-08-31",
+   "active_users": 38,
+   "feature_events": 631
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-01",
+   "active_users": 42,
+   "feature_events": 715
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-02",
+   "active_users": 42,
+   "feature_events": 868
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-03",
+   "active_users": 38,
+   "feature_events": 557
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-04",
+   "active_users": 37,
+   "feature_events": 678
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-05",
+   "active_users": 13,
+   "feature_events": 218
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-06",
+   "active_users": 12,
+   "feature_events": 243
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-07",
+   "active_users": 41,
+   "feature_events": 821
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-08",
+   "active_users": 43,
+   "feature_events": 671
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-09",
+   "active_users": 37,
+   "feature_events": 563
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-10",
+   "active_users": 38,
+   "feature_events": 736
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-11",
+   "active_users": 40,
+   "feature_events": 630
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-12",
+   "active_users": 12,
+   "feature_events": 242
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-13",
+   "active_users": 11,
+   "feature_events": 207
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-14",
+   "active_users": 42,
+   "feature_events": 626
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-15",
+   "active_users": 42,
+   "feature_events": 912
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-16",
+   "active_users": 37,
+   "feature_events": 526
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-17",
+   "active_users": 39,
+   "feature_events": 757
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-18",
+   "active_users": 43,
+   "feature_events": 738
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-19",
+   "active_users": 12,
+   "feature_events": 175
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-20",
+   "active_users": 12,
+   "feature_events": 228
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-21",
+   "active_users": 37,
+   "feature_events": 747
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-22",
+   "active_users": 42,
+   "feature_events": 790
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-23",
+   "active_users": 38,
+   "feature_events": 831
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-24",
+   "active_users": 42,
+   "feature_events": 705
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-25",
+   "active_users": 40,
+   "feature_events": 679
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-26",
+   "active_users": 12,
+   "feature_events": 201
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-27",
+   "active_users": 13,
+   "feature_events": 268
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-28",
+   "active_users": 37,
+   "feature_events": 802
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-29",
+   "active_users": 41,
+   "feature_events": 846
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-09-30",
+   "active_users": 41,
+   "feature_events": 717
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-01",
+   "active_users": 41,
+   "feature_events": 891
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-02",
+   "active_users": 39,
+   "feature_events": 798
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-03",
+   "active_users": 12,
+   "feature_events": 214
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-04",
+   "active_users": 12,
+   "feature_events": 238
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-05",
+   "active_users": 39,
+   "feature_events": 812
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-06",
+   "active_users": 42,
+   "feature_events": 617
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-07",
+   "active_users": 42,
+   "feature_events": 670
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-08",
+   "active_users": 40,
+   "feature_events": 755
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-09",
+   "active_users": 39,
+   "feature_events": 555
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-10",
+   "active_users": 13,
+   "feature_events": 201
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-11",
+   "active_users": 11,
+   "feature_events": 224
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-12",
+   "active_users": 39,
+   "feature_events": 821
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-13",
+   "active_users": 41,
+   "feature_events": 665
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "occurred_on": "2026-10-14",
+   "active_users": 37,
+   "feature_events": 799
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-16",
+   "active_users": 73,
+   "feature_events": 1443
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-17",
+   "active_users": 261,
+   "feature_events": 5237
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-18",
+   "active_users": 270,
+   "feature_events": 5175
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-19",
+   "active_users": 263,
+   "feature_events": 5350
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-20",
+   "active_users": 247,
+   "feature_events": 3896
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-21",
+   "active_users": 273,
+   "feature_events": 4491
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-22",
+   "active_users": 81,
+   "feature_events": 1441
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-23",
+   "active_users": 81,
+   "feature_events": 1410
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-24",
+   "active_users": 279,
+   "feature_events": 4644
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-25",
+   "active_users": 278,
+   "feature_events": 4495
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-26",
+   "active_users": 260,
+   "feature_events": 3891
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-27",
+   "active_users": 258,
+   "feature_events": 3859
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-28",
+   "active_users": 274,
+   "feature_events": 5507
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-29",
+   "active_users": 78,
+   "feature_events": 1227
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-30",
+   "active_users": 82,
+   "feature_events": 1623
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-08-31",
+   "active_users": 297,
+   "feature_events": 5405
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-01",
+   "active_users": 267,
+   "feature_events": 3953
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-02",
+   "active_users": 264,
+   "feature_events": 4176
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-03",
+   "active_users": 264,
+   "feature_events": 3726
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-04",
+   "active_users": 281,
+   "feature_events": 4551
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-05",
+   "active_users": 91,
+   "feature_events": 1677
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-06",
+   "active_users": 87,
+   "feature_events": 1306
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-07",
+   "active_users": 300,
+   "feature_events": 5378
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-08",
+   "active_users": 301,
+   "feature_events": 5596
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-09",
+   "active_users": 284,
+   "feature_events": 4977
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-10",
+   "active_users": 272,
+   "feature_events": 3920
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-11",
+   "active_users": 307,
+   "feature_events": 5471
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-12",
+   "active_users": 91,
+   "feature_events": 1566
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-13",
+   "active_users": 81,
+   "feature_events": 1542
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-14",
+   "active_users": 269,
+   "feature_events": 4087
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-15",
+   "active_users": 294,
+   "feature_events": 4831
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-16",
+   "active_users": 315,
+   "feature_events": 4708
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-17",
+   "active_users": 306,
+   "feature_events": 5768
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-18",
+   "active_users": 308,
+   "feature_events": 4868
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-19",
+   "active_users": 89,
+   "feature_events": 1567
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-20",
+   "active_users": 88,
+   "feature_events": 1838
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-21",
+   "active_users": 321,
+   "feature_events": 5278
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-22",
+   "active_users": 304,
+   "feature_events": 5739
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-23",
+   "active_users": 311,
+   "feature_events": 6712
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-24",
+   "active_users": 287,
+   "feature_events": 4503
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-25",
+   "active_users": 309,
+   "feature_events": 4714
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-26",
+   "active_users": 86,
+   "feature_events": 1256
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-27",
+   "active_users": 84,
+   "feature_events": 1479
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-28",
+   "active_users": 309,
+   "feature_events": 5046
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-29",
+   "active_users": 293,
+   "feature_events": 5759
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-09-30",
+   "active_users": 317,
+   "feature_events": 5589
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-01",
+   "active_users": 317,
+   "feature_events": 6781
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-02",
+   "active_users": 323,
+   "feature_events": 6137
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-03",
+   "active_users": 95,
+   "feature_events": 2040
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-04",
+   "active_users": 92,
+   "feature_events": 1689
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-05",
+   "active_users": 319,
+   "feature_events": 6784
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-06",
+   "active_users": 329,
+   "feature_events": 4794
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-07",
+   "active_users": 297,
+   "feature_events": 4889
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-08",
+   "active_users": 328,
+   "feature_events": 6086
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-09",
+   "active_users": 305,
+   "feature_events": 4573
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-10",
+   "active_users": 98,
+   "feature_events": 1921
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-11",
+   "active_users": 102,
+   "feature_events": 1836
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-12",
+   "active_users": 319,
+   "feature_events": 4671
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-13",
+   "active_users": 297,
+   "feature_events": 5185
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "occurred_on": "2026-10-14",
+   "active_users": 312,
+   "feature_events": 4993
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-16",
+   "active_users": 20,
+   "feature_events": 434
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-17",
+   "active_users": 74,
+   "feature_events": 1377
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-18",
+   "active_users": 75,
+   "feature_events": 1650
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-19",
+   "active_users": 72,
+   "feature_events": 1163
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-20",
+   "active_users": 65,
+   "feature_events": 1303
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-21",
+   "active_users": 70,
+   "feature_events": 1345
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-22",
+   "active_users": 22,
+   "feature_events": 340
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-23",
+   "active_users": 21,
+   "feature_events": 401
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-24",
+   "active_users": 70,
+   "feature_events": 1031
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-25",
+   "active_users": 68,
+   "feature_events": 1133
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-26",
+   "active_users": 72,
+   "feature_events": 1502
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-27",
+   "active_users": 68,
+   "feature_events": 1329
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-28",
+   "active_users": 68,
+   "feature_events": 1466
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-29",
+   "active_users": 22,
+   "feature_events": 405
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-30",
+   "active_users": 21,
+   "feature_events": 347
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-08-31",
+   "active_users": 68,
+   "feature_events": 1480
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-01",
+   "active_users": 69,
+   "feature_events": 1250
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-02",
+   "active_users": 75,
+   "feature_events": 1445
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-03",
+   "active_users": 70,
+   "feature_events": 1211
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-04",
+   "active_users": 67,
+   "feature_events": 1132
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-05",
+   "active_users": 22,
+   "feature_events": 418
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-06",
+   "active_users": 22,
+   "feature_events": 344
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-07",
+   "active_users": 71,
+   "feature_events": 1521
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-08",
+   "active_users": 69,
+   "feature_events": 1351
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-09",
+   "active_users": 66,
+   "feature_events": 1438
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-10",
+   "active_users": 71,
+   "feature_events": 1130
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-11",
+   "active_users": 66,
+   "feature_events": 1215
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-12",
+   "active_users": 21,
+   "feature_events": 310
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-13",
+   "active_users": 23,
+   "feature_events": 490
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-14",
+   "active_users": 70,
+   "feature_events": 1046
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-15",
+   "active_users": 74,
+   "feature_events": 1331
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-16",
+   "active_users": 72,
+   "feature_events": 1301
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-17",
+   "active_users": 67,
+   "feature_events": 1385
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-18",
+   "active_users": 75,
+   "feature_events": 1196
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-19",
+   "active_users": 21,
+   "feature_events": 358
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-20",
+   "active_users": 22,
+   "feature_events": 397
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-21",
+   "active_users": 74,
+   "feature_events": 1548
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-22",
+   "active_users": 67,
+   "feature_events": 1361
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-23",
+   "active_users": 69,
+   "feature_events": 1482
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-24",
+   "active_users": 70,
+   "feature_events": 1440
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-25",
+   "active_users": 68,
+   "feature_events": 1114
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-26",
+   "active_users": 21,
+   "feature_events": 462
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-27",
+   "active_users": 21,
+   "feature_events": 319
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-28",
+   "active_users": 70,
+   "feature_events": 1173
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-29",
+   "active_users": 71,
+   "feature_events": 1303
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-09-30",
+   "active_users": 69,
+   "feature_events": 1144
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-01",
+   "active_users": 67,
+   "feature_events": 1312
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-02",
+   "active_users": 71,
+   "feature_events": 1127
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-03",
+   "active_users": 22,
+   "feature_events": 316
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-04",
+   "active_users": 22,
+   "feature_events": 432
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-05",
+   "active_users": 73,
+   "feature_events": 1247
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-06",
+   "active_users": 72,
+   "feature_events": 1481
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-07",
+   "active_users": 75,
+   "feature_events": 1347
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-08",
+   "active_users": 65,
+   "feature_events": 1171
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-09",
+   "active_users": 71,
+   "feature_events": 1488
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-10",
+   "active_users": 22,
+   "feature_events": 385
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-11",
+   "active_users": 21,
+   "feature_events": 371
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-12",
+   "active_users": 72,
+   "feature_events": 1244
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-13",
+   "active_users": 72,
+   "feature_events": 1097
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "occurred_on": "2026-10-14",
+   "active_users": 70,
+   "feature_events": 1523
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-16",
+   "active_users": 10,
+   "feature_events": 195
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-17",
+   "active_users": 36,
+   "feature_events": 749
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-18",
+   "active_users": 37,
+   "feature_events": 772
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-19",
+   "active_users": 34,
+   "feature_events": 562
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-20",
+   "active_users": 36,
+   "feature_events": 723
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-21",
+   "active_users": 37,
+   "feature_events": 529
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-22",
+   "active_users": 10,
+   "feature_events": 190
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-23",
+   "active_users": 11,
+   "feature_events": 242
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-24",
+   "active_users": 36,
+   "feature_events": 629
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-25",
+   "active_users": 33,
+   "feature_events": 629
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-26",
+   "active_users": 37,
+   "feature_events": 649
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-27",
+   "active_users": 36,
+   "feature_events": 764
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-28",
+   "active_users": 32,
+   "feature_events": 652
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-29",
+   "active_users": 10,
+   "feature_events": 170
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-30",
+   "active_users": 10,
+   "feature_events": 182
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-08-31",
+   "active_users": 35,
+   "feature_events": 712
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-01",
+   "active_users": 33,
+   "feature_events": 483
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-02",
+   "active_users": 37,
+   "feature_events": 701
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-03",
+   "active_users": 34,
+   "feature_events": 724
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-04",
+   "active_users": 33,
+   "feature_events": 584
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-05",
+   "active_users": 10,
+   "feature_events": 160
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-06",
+   "active_users": 10,
+   "feature_events": 204
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-07",
+   "active_users": 37,
+   "feature_events": 719
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-08",
+   "active_users": 33,
+   "feature_events": 579
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-09",
+   "active_users": 34,
+   "feature_events": 636
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-10",
+   "active_users": 36,
+   "feature_events": 626
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-11",
+   "active_users": 34,
+   "feature_events": 706
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-12",
+   "active_users": 10,
+   "feature_events": 171
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-13",
+   "active_users": 10,
+   "feature_events": 159
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-14",
+   "active_users": 35,
+   "feature_events": 651
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-15",
+   "active_users": 38,
+   "feature_events": 622
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-16",
+   "active_users": 38,
+   "feature_events": 732
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-17",
+   "active_users": 34,
+   "feature_events": 630
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-18",
+   "active_users": 36,
+   "feature_events": 718
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-19",
+   "active_users": 10,
+   "feature_events": 189
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-20",
+   "active_users": 10,
+   "feature_events": 212
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-21",
+   "active_users": 34,
+   "feature_events": 693
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-22",
+   "active_users": 36,
+   "feature_events": 605
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-23",
+   "active_users": 36,
+   "feature_events": 683
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-24",
+   "active_users": 36,
+   "feature_events": 712
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-25",
+   "active_users": 36,
+   "feature_events": 745
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-26",
+   "active_users": 11,
+   "feature_events": 233
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-27",
+   "active_users": 11,
+   "feature_events": 181
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-28",
+   "active_users": 35,
+   "feature_events": 652
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-29",
+   "active_users": 36,
+   "feature_events": 530
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-09-30",
+   "active_users": 34,
+   "feature_events": 679
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-01",
+   "active_users": 33,
+   "feature_events": 497
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-02",
+   "active_users": 35,
+   "feature_events": 762
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-03",
+   "active_users": 11,
+   "feature_events": 234
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-04",
+   "active_users": 11,
+   "feature_events": 177
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-05",
+   "active_users": 37,
+   "feature_events": 661
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-06",
+   "active_users": 37,
+   "feature_events": 739
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-07",
+   "active_users": 34,
+   "feature_events": 507
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-08",
+   "active_users": 38,
+   "feature_events": 575
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-09",
+   "active_users": 38,
+   "feature_events": 793
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-10",
+   "active_users": 11,
+   "feature_events": 240
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-11",
+   "active_users": 11,
+   "feature_events": 225
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-12",
+   "active_users": 34,
+   "feature_events": 691
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-13",
+   "active_users": 32,
+   "feature_events": 585
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "occurred_on": "2026-10-14",
+   "active_users": 35,
+   "feature_events": 678
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-16",
+   "active_users": 105,
+   "feature_events": 1961
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-17",
+   "active_users": 358,
+   "feature_events": 7705
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-18",
+   "active_users": 319,
+   "feature_events": 5063
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-19",
+   "active_users": 314,
+   "feature_events": 6617
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-20",
+   "active_users": 343,
+   "feature_events": 7313
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-21",
+   "active_users": 325,
+   "feature_events": 4714
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-22",
+   "active_users": 107,
+   "feature_events": 2276
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-23",
+   "active_users": 99,
+   "feature_events": 1709
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-24",
+   "active_users": 320,
+   "feature_events": 6902
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-25",
+   "active_users": 329,
+   "feature_events": 5903
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-26",
+   "active_users": 318,
+   "feature_events": 6709
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-27",
+   "active_users": 320,
+   "feature_events": 5641
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-28",
+   "active_users": 349,
+   "feature_events": 6961
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-29",
+   "active_users": 109,
+   "feature_events": 1891
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-30",
+   "active_users": 106,
+   "feature_events": 1615
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-08-31",
+   "active_users": 335,
+   "feature_events": 4955
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-01",
+   "active_users": 339,
+   "feature_events": 5853
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-02",
+   "active_users": 365,
+   "feature_events": 5206
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-03",
+   "active_users": 333,
+   "feature_events": 5843
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-04",
+   "active_users": 365,
+   "feature_events": 7608
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-05",
+   "active_users": 95,
+   "feature_events": 1851
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-06",
+   "active_users": 103,
+   "feature_events": 2248
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-07",
+   "active_users": 332,
+   "feature_events": 5705
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-08",
+   "active_users": 323,
+   "feature_events": 4838
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-09",
+   "active_users": 359,
+   "feature_events": 6332
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-10",
+   "active_users": 349,
+   "feature_events": 6678
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-11",
+   "active_users": 345,
+   "feature_events": 4889
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-12",
+   "active_users": 107,
+   "feature_events": 1706
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-13",
+   "active_users": 96,
+   "feature_events": 1778
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-14",
+   "active_users": 312,
+   "feature_events": 6278
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-15",
+   "active_users": 315,
+   "feature_events": 4954
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-16",
+   "active_users": 344,
+   "feature_events": 5720
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-17",
+   "active_users": 302,
+   "feature_events": 6404
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-18",
+   "active_users": 290,
+   "feature_events": 6052
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-19",
+   "active_users": 88,
+   "feature_events": 1324
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-20",
+   "active_users": 88,
+   "feature_events": 1355
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-21",
+   "active_users": 308,
+   "feature_events": 4376
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-22",
+   "active_users": 273,
+   "feature_events": 5547
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-23",
+   "active_users": 278,
+   "feature_events": 4612
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-24",
+   "active_users": 271,
+   "feature_events": 3908
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-25",
+   "active_users": 292,
+   "feature_events": 5317
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-26",
+   "active_users": 86,
+   "feature_events": 1532
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-27",
+   "active_users": 85,
+   "feature_events": 1539
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-28",
+   "active_users": 249,
+   "feature_events": 4490
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-29",
+   "active_users": 280,
+   "feature_events": 4017
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-09-30",
+   "active_users": 268,
+   "feature_events": 5611
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-01",
+   "active_users": 252,
+   "feature_events": 4451
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-02",
+   "active_users": 265,
+   "feature_events": 3839
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-03",
+   "active_users": 72,
+   "feature_events": 1239
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-04",
+   "active_users": 73,
+   "feature_events": 1308
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-05",
+   "active_users": 247,
+   "feature_events": 3603
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-06",
+   "active_users": 211,
+   "feature_events": 3981
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-07",
+   "active_users": 206,
+   "feature_events": 3337
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-08",
+   "active_users": 221,
+   "feature_events": 4063
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-09",
+   "active_users": 206,
+   "feature_events": 4523
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-10",
+   "active_users": 62,
+   "feature_events": 1093
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-11",
+   "active_users": 62,
+   "feature_events": 917
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-12",
+   "active_users": 203,
+   "feature_events": 4227
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-13",
+   "active_users": 197,
+   "feature_events": 3970
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "occurred_on": "2026-10-14",
+   "active_users": 194,
+   "feature_events": 3050
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-16",
+   "active_users": 33,
+   "feature_events": 522
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-17",
+   "active_users": 107,
+   "feature_events": 1886
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-18",
+   "active_users": 109,
+   "feature_events": 1609
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-19",
+   "active_users": 109,
+   "feature_events": 2106
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-20",
+   "active_users": 108,
+   "feature_events": 1644
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-21",
+   "active_users": 117,
+   "feature_events": 1701
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-22",
+   "active_users": 35,
+   "feature_events": 516
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-23",
+   "active_users": 31,
+   "feature_events": 617
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-24",
+   "active_users": 115,
+   "feature_events": 2122
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-25",
+   "active_users": 112,
+   "feature_events": 2071
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-26",
+   "active_users": 107,
+   "feature_events": 1603
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-27",
+   "active_users": 107,
+   "feature_events": 2068
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-28",
+   "active_users": 114,
+   "feature_events": 2388
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-29",
+   "active_users": 34,
+   "feature_events": 739
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-30",
+   "active_users": 34,
+   "feature_events": 572
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-08-31",
+   "active_users": 111,
+   "feature_events": 1743
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-01",
+   "active_users": 113,
+   "feature_events": 1785
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-02",
+   "active_users": 103,
+   "feature_events": 2139
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-03",
+   "active_users": 108,
+   "feature_events": 2171
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-04",
+   "active_users": 111,
+   "feature_events": 2271
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-05",
+   "active_users": 35,
+   "feature_events": 763
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-06",
+   "active_users": 35,
+   "feature_events": 662
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-07",
+   "active_users": 113,
+   "feature_events": 1606
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-08",
+   "active_users": 118,
+   "feature_events": 2435
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-09",
+   "active_users": 106,
+   "feature_events": 1637
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-10",
+   "active_users": 114,
+   "feature_events": 1878
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-11",
+   "active_users": 107,
+   "feature_events": 1503
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-12",
+   "active_users": 35,
+   "feature_events": 649
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-13",
+   "active_users": 32,
+   "feature_events": 484
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-14",
+   "active_users": 112,
+   "feature_events": 1595
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-15",
+   "active_users": 113,
+   "feature_events": 1776
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-16",
+   "active_users": 107,
+   "feature_events": 1790
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-17",
+   "active_users": 106,
+   "feature_events": 2096
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-18",
+   "active_users": 112,
+   "feature_events": 2077
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-19",
+   "active_users": 30,
+   "feature_events": 433
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-20",
+   "active_users": 30,
+   "feature_events": 568
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-21",
+   "active_users": 109,
+   "feature_events": 1763
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-22",
+   "active_users": 108,
+   "feature_events": 1932
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-23",
+   "active_users": 104,
+   "feature_events": 1683
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-24",
+   "active_users": 108,
+   "feature_events": 1610
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-25",
+   "active_users": 102,
+   "feature_events": 1659
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-26",
+   "active_users": 32,
+   "feature_events": 573
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-27",
+   "active_users": 32,
+   "feature_events": 460
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-28",
+   "active_users": 100,
+   "feature_events": 1879
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-29",
+   "active_users": 93,
+   "feature_events": 1526
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-09-30",
+   "active_users": 96,
+   "feature_events": 1449
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-01",
+   "active_users": 96,
+   "feature_events": 1596
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-02",
+   "active_users": 92,
+   "feature_events": 1838
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-03",
+   "active_users": 28,
+   "feature_events": 477
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-04",
+   "active_users": 31,
+   "feature_events": 558
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-05",
+   "active_users": 104,
+   "feature_events": 2127
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-06",
+   "active_users": 91,
+   "feature_events": 1901
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-07",
+   "active_users": 90,
+   "feature_events": 1273
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-08",
+   "active_users": 103,
+   "feature_events": 2152
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-09",
+   "active_users": 97,
+   "feature_events": 1803
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-10",
+   "active_users": 30,
+   "feature_events": 520
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-11",
+   "active_users": 27,
+   "feature_events": 383
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-12",
+   "active_users": 92,
+   "feature_events": 1878
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-13",
+   "active_users": 96,
+   "feature_events": 1983
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "occurred_on": "2026-10-14",
+   "active_users": 100,
+   "feature_events": 1471
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-16",
+   "active_users": 27,
+   "feature_events": 431
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-17",
+   "active_users": 86,
+   "feature_events": 1564
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-18",
+   "active_users": 84,
+   "feature_events": 1385
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-19",
+   "active_users": 83,
+   "feature_events": 1383
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-20",
+   "active_users": 80,
+   "feature_events": 1447
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-21",
+   "active_users": 80,
+   "feature_events": 1446
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-22",
+   "active_users": 27,
+   "feature_events": 453
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-23",
+   "active_users": 26,
+   "feature_events": 534
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-24",
+   "active_users": 89,
+   "feature_events": 1414
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-25",
+   "active_users": 80,
+   "feature_events": 1246
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-26",
+   "active_users": 86,
+   "feature_events": 1727
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-27",
+   "active_users": 87,
+   "feature_events": 1341
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-28",
+   "active_users": 89,
+   "feature_events": 1598
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-29",
+   "active_users": 27,
+   "feature_events": 542
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-30",
+   "active_users": 25,
+   "feature_events": 535
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-08-31",
+   "active_users": 86,
+   "feature_events": 1641
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-01",
+   "active_users": 87,
+   "feature_events": 1820
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-02",
+   "active_users": 87,
+   "feature_events": 1323
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-03",
+   "active_users": 79,
+   "feature_events": 1385
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-04",
+   "active_users": 82,
+   "feature_events": 1328
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-05",
+   "active_users": 24,
+   "feature_events": 433
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-06",
+   "active_users": 25,
+   "feature_events": 440
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-07",
+   "active_users": 79,
+   "feature_events": 1632
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-08",
+   "active_users": 79,
+   "feature_events": 1652
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-09",
+   "active_users": 90,
+   "feature_events": 1703
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-10",
+   "active_users": 85,
+   "feature_events": 1505
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-11",
+   "active_users": 86,
+   "feature_events": 1749
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-12",
+   "active_users": 27,
+   "feature_events": 475
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-13",
+   "active_users": 27,
+   "feature_events": 519
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-14",
+   "active_users": 83,
+   "feature_events": 1478
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-15",
+   "active_users": 80,
+   "feature_events": 1160
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-16",
+   "active_users": 80,
+   "feature_events": 1695
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-17",
+   "active_users": 83,
+   "feature_events": 1636
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-18",
+   "active_users": 85,
+   "feature_events": 1307
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-19",
+   "active_users": 24,
+   "feature_events": 420
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-20",
+   "active_users": 25,
+   "feature_events": 455
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-21",
+   "active_users": 80,
+   "feature_events": 1359
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-22",
+   "active_users": 82,
+   "feature_events": 1416
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-23",
+   "active_users": 83,
+   "feature_events": 1559
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-24",
+   "active_users": 89,
+   "feature_events": 1707
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-25",
+   "active_users": 79,
+   "feature_events": 1166
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-26",
+   "active_users": 26,
+   "feature_events": 423
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-27",
+   "active_users": 26,
+   "feature_events": 501
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-28",
+   "active_users": 91,
+   "feature_events": 1910
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-29",
+   "active_users": 83,
+   "feature_events": 1549
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-09-30",
+   "active_users": 80,
+   "feature_events": 1344
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-01",
+   "active_users": 91,
+   "feature_events": 1782
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-02",
+   "active_users": 84,
+   "feature_events": 1576
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-03",
+   "active_users": 27,
+   "feature_events": 445
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-04",
+   "active_users": 25,
+   "feature_events": 508
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-05",
+   "active_users": 89,
+   "feature_events": 1723
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-06",
+   "active_users": 89,
+   "feature_events": 1772
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-07",
+   "active_users": 88,
+   "feature_events": 1603
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-08",
+   "active_users": 87,
+   "feature_events": 1513
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-09",
+   "active_users": 83,
+   "feature_events": 1403
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-10",
+   "active_users": 24,
+   "feature_events": 377
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-11",
+   "active_users": 27,
+   "feature_events": 483
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-12",
+   "active_users": 81,
+   "feature_events": 1223
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-13",
+   "active_users": 79,
+   "feature_events": 1640
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "occurred_on": "2026-10-14",
+   "active_users": 80,
+   "feature_events": 1613
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-16",
+   "active_users": 70,
+   "feature_events": 1475
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-17",
+   "active_users": 204,
+   "feature_events": 3406
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-18",
+   "active_users": 229,
+   "feature_events": 3446
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-19",
+   "active_users": 216,
+   "feature_events": 3304
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-20",
+   "active_users": 232,
+   "feature_events": 4679
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-21",
+   "active_users": 231,
+   "feature_events": 3540
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-22",
+   "active_users": 65,
+   "feature_events": 1124
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-23",
+   "active_users": 68,
+   "feature_events": 1081
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-24",
+   "active_users": 218,
+   "feature_events": 3549
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-25",
+   "active_users": 229,
+   "feature_events": 4028
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-26",
+   "active_users": 221,
+   "feature_events": 3641
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-27",
+   "active_users": 231,
+   "feature_events": 4101
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-28",
+   "active_users": 232,
+   "feature_events": 3931
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-29",
+   "active_users": 71,
+   "feature_events": 1553
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-30",
+   "active_users": 66,
+   "feature_events": 1073
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-08-31",
+   "active_users": 216,
+   "feature_events": 3935
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-01",
+   "active_users": 236,
+   "feature_events": 4846
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-02",
+   "active_users": 231,
+   "feature_events": 3490
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-03",
+   "active_users": 211,
+   "feature_events": 4036
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-04",
+   "active_users": 233,
+   "feature_events": 4296
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-05",
+   "active_users": 62,
+   "feature_events": 1288
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-06",
+   "active_users": 70,
+   "feature_events": 1140
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-07",
+   "active_users": 229,
+   "feature_events": 3706
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-08",
+   "active_users": 234,
+   "feature_events": 3552
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-09",
+   "active_users": 218,
+   "feature_events": 4703
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-10",
+   "active_users": 210,
+   "feature_events": 3698
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-11",
+   "active_users": 215,
+   "feature_events": 3056
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-12",
+   "active_users": 61,
+   "feature_events": 1099
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-13",
+   "active_users": 63,
+   "feature_events": 1383
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-14",
+   "active_users": 216,
+   "feature_events": 3073
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-15",
+   "active_users": 235,
+   "feature_events": 4868
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-16",
+   "active_users": 225,
+   "feature_events": 4574
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-17",
+   "active_users": 207,
+   "feature_events": 3373
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-18",
+   "active_users": 232,
+   "feature_events": 4540
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-19",
+   "active_users": 28,
+   "feature_events": 550
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-20",
+   "active_users": 29,
+   "feature_events": 407
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-21",
+   "active_users": 92,
+   "feature_events": 1476
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-22",
+   "active_users": 104,
+   "feature_events": 1913
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-23",
+   "active_users": 103,
+   "feature_events": 1877
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-24",
+   "active_users": 93,
+   "feature_events": 1516
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-25",
+   "active_users": 96,
+   "feature_events": 1381
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-26",
+   "active_users": 29,
+   "feature_events": 590
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-27",
+   "active_users": 29,
+   "feature_events": 432
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-28",
+   "active_users": 105,
+   "feature_events": 1971
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-29",
+   "active_users": 91,
+   "feature_events": 1649
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-09-30",
+   "active_users": 95,
+   "feature_events": 1439
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-01",
+   "active_users": 218,
+   "feature_events": 4124
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-02",
+   "active_users": 211,
+   "feature_events": 3657
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-03",
+   "active_users": 68,
+   "feature_events": 999
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-04",
+   "active_users": 71,
+   "feature_events": 1032
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-05",
+   "active_users": 221,
+   "feature_events": 3991
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-06",
+   "active_users": 237,
+   "feature_events": 4369
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-07",
+   "active_users": 216,
+   "feature_events": 3836
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-08",
+   "active_users": 225,
+   "feature_events": 4916
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-09",
+   "active_users": 211,
+   "feature_events": 2981
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-10",
+   "active_users": 69,
+   "feature_events": 1156
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-11",
+   "active_users": 68,
+   "feature_events": 1294
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-12",
+   "active_users": 230,
+   "feature_events": 4573
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-13",
+   "active_users": 214,
+   "feature_events": 3072
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "occurred_on": "2026-10-14",
+   "active_users": 222,
+   "feature_events": 4553
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-16",
+   "active_users": 13,
+   "feature_events": 263
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-17",
+   "active_users": 45,
+   "feature_events": 880
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-18",
+   "active_users": 46,
+   "feature_events": 943
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-19",
+   "active_users": 42,
+   "feature_events": 849
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-20",
+   "active_users": 45,
+   "feature_events": 736
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-21",
+   "active_users": 42,
+   "feature_events": 655
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-22",
+   "active_users": 13,
+   "feature_events": 279
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-23",
+   "active_users": 14,
+   "feature_events": 307
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-24",
+   "active_users": 45,
+   "feature_events": 721
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-25",
+   "active_users": 47,
+   "feature_events": 730
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-26",
+   "active_users": 44,
+   "feature_events": 891
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-27",
+   "active_users": 48,
+   "feature_events": 799
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-28",
+   "active_users": 42,
+   "feature_events": 712
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-29",
+   "active_users": 14,
+   "feature_events": 279
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-30",
+   "active_users": 14,
+   "feature_events": 239
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-08-31",
+   "active_users": 48,
+   "feature_events": 863
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-01",
+   "active_users": 45,
+   "feature_events": 963
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-02",
+   "active_users": 45,
+   "feature_events": 918
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-03",
+   "active_users": 47,
+   "feature_events": 688
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-04",
+   "active_users": 46,
+   "feature_events": 947
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-05",
+   "active_users": 14,
+   "feature_events": 232
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-06",
+   "active_users": 13,
+   "feature_events": 251
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-07",
+   "active_users": 44,
+   "feature_events": 828
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-08",
+   "active_users": 44,
+   "feature_events": 859
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-09",
+   "active_users": 44,
+   "feature_events": 631
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-10",
+   "active_users": 48,
+   "feature_events": 807
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-11",
+   "active_users": 49,
+   "feature_events": 794
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-12",
+   "active_users": 15,
+   "feature_events": 324
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-13",
+   "active_users": 13,
+   "feature_events": 248
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-14",
+   "active_users": 44,
+   "feature_events": 898
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-15",
+   "active_users": 46,
+   "feature_events": 995
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-16",
+   "active_users": 42,
+   "feature_events": 792
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-17",
+   "active_users": 47,
+   "feature_events": 671
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-18",
+   "active_users": 42,
+   "feature_events": 850
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-19",
+   "active_users": 13,
+   "feature_events": 222
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-20",
+   "active_users": 14,
+   "feature_events": 264
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-21",
+   "active_users": 46,
+   "feature_events": 993
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-22",
+   "active_users": 44,
+   "feature_events": 885
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-23",
+   "active_users": 46,
+   "feature_events": 839
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-24",
+   "active_users": 44,
+   "feature_events": 845
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-25",
+   "active_users": 43,
+   "feature_events": 641
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-26",
+   "active_users": 14,
+   "feature_events": 252
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-27",
+   "active_users": 13,
+   "feature_events": 240
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-28",
+   "active_users": 43,
+   "feature_events": 692
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-29",
+   "active_users": 45,
+   "feature_events": 989
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-09-30",
+   "active_users": 43,
+   "feature_events": 917
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-01",
+   "active_users": 45,
+   "feature_events": 674
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-02",
+   "active_users": 48,
+   "feature_events": 846
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-03",
+   "active_users": 14,
+   "feature_events": 246
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-04",
+   "active_users": 13,
+   "feature_events": 253
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-05",
+   "active_users": 47,
+   "feature_events": 778
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-06",
+   "active_users": 44,
+   "feature_events": 639
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-07",
+   "active_users": 45,
+   "feature_events": 951
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-08",
+   "active_users": 48,
+   "feature_events": 945
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-09",
+   "active_users": 48,
+   "feature_events": 917
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-10",
+   "active_users": 14,
+   "feature_events": 253
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-11",
+   "active_users": 13,
+   "feature_events": 203
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-12",
+   "active_users": 42,
+   "feature_events": 854
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-13",
+   "active_users": 42,
+   "feature_events": 774
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "occurred_on": "2026-10-14",
+   "active_users": 44,
+   "feature_events": 899
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-16",
+   "active_users": 30,
+   "feature_events": 567
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-17",
+   "active_users": 94,
+   "feature_events": 1549
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-18",
+   "active_users": 109,
+   "feature_events": 2153
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-19",
+   "active_users": 102,
+   "feature_events": 2056
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-20",
+   "active_users": 107,
+   "feature_events": 1561
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-21",
+   "active_users": 110,
+   "feature_events": 2105
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-22",
+   "active_users": 30,
+   "feature_events": 583
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-23",
+   "active_users": 30,
+   "feature_events": 631
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-24",
+   "active_users": 108,
+   "feature_events": 2065
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-25",
+   "active_users": 98,
+   "feature_events": 2130
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-26",
+   "active_users": 103,
+   "feature_events": 2192
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-27",
+   "active_users": 97,
+   "feature_events": 1454
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-28",
+   "active_users": 99,
+   "feature_events": 1516
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-29",
+   "active_users": 31,
+   "feature_events": 610
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-30",
+   "active_users": 31,
+   "feature_events": 667
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-08-31",
+   "active_users": 113,
+   "feature_events": 2347
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-01",
+   "active_users": 102,
+   "feature_events": 1946
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-02",
+   "active_users": 108,
+   "feature_events": 1620
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-03",
+   "active_users": 104,
+   "feature_events": 1900
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-04",
+   "active_users": 108,
+   "feature_events": 1658
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-05",
+   "active_users": 35,
+   "feature_events": 533
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-06",
+   "active_users": 33,
+   "feature_events": 652
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-07",
+   "active_users": 111,
+   "feature_events": 2302
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-08",
+   "active_users": 110,
+   "feature_events": 2266
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-09",
+   "active_users": 101,
+   "feature_events": 1451
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-10",
+   "active_users": 112,
+   "feature_events": 2085
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-11",
+   "active_users": 113,
+   "feature_events": 2275
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-12",
+   "active_users": 33,
+   "feature_events": 631
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-13",
+   "active_users": 33,
+   "feature_events": 628
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-14",
+   "active_users": 108,
+   "feature_events": 2339
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-15",
+   "active_users": 112,
+   "feature_events": 2289
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-16",
+   "active_users": 116,
+   "feature_events": 1900
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-17",
+   "active_users": 105,
+   "feature_events": 1520
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-18",
+   "active_users": 112,
+   "feature_events": 2002
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-19",
+   "active_users": 32,
+   "feature_events": 603
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-20",
+   "active_users": 33,
+   "feature_events": 652
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-21",
+   "active_users": 119,
+   "feature_events": 2485
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-22",
+   "active_users": 124,
+   "feature_events": 1866
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-23",
+   "active_users": 113,
+   "feature_events": 2090
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-24",
+   "active_users": 112,
+   "feature_events": 1986
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-25",
+   "active_users": 112,
+   "feature_events": 1790
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-26",
+   "active_users": 33,
+   "feature_events": 539
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-27",
+   "active_users": 34,
+   "feature_events": 643
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-28",
+   "active_users": 112,
+   "feature_events": 2343
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-29",
+   "active_users": 111,
+   "feature_events": 1845
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-09-30",
+   "active_users": 119,
+   "feature_events": 1964
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-01",
+   "active_users": 123,
+   "feature_events": 2212
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-02",
+   "active_users": 119,
+   "feature_events": 2141
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-03",
+   "active_users": 35,
+   "feature_events": 496
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-04",
+   "active_users": 38,
+   "feature_events": 686
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-05",
+   "active_users": 129,
+   "feature_events": 2028
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-06",
+   "active_users": 118,
+   "feature_events": 1700
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-07",
+   "active_users": 121,
+   "feature_events": 2548
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-08",
+   "active_users": 124,
+   "feature_events": 2203
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-09",
+   "active_users": 122,
+   "feature_events": 2535
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-10",
+   "active_users": 36,
+   "feature_events": 758
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-11",
+   "active_users": 38,
+   "feature_events": 764
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-12",
+   "active_users": 120,
+   "feature_events": 2065
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-13",
+   "active_users": 125,
+   "feature_events": 1945
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "occurred_on": "2026-10-14",
+   "active_users": 125,
+   "feature_events": 1824
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-16",
+   "active_users": 23,
+   "feature_events": 463
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-17",
+   "active_users": 72,
+   "feature_events": 1578
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-18",
+   "active_users": 77,
+   "feature_events": 1151
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-19",
+   "active_users": 81,
+   "feature_events": 1389
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-20",
+   "active_users": 79,
+   "feature_events": 1320
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-21",
+   "active_users": 80,
+   "feature_events": 1603
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-22",
+   "active_users": 21,
+   "feature_events": 380
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-23",
+   "active_users": 23,
+   "feature_events": 330
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-24",
+   "active_users": 71,
+   "feature_events": 1183
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-25",
+   "active_users": 75,
+   "feature_events": 1324
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-26",
+   "active_users": 76,
+   "feature_events": 1377
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-27",
+   "active_users": 73,
+   "feature_events": 1380
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-28",
+   "active_users": 71,
+   "feature_events": 1557
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-29",
+   "active_users": 23,
+   "feature_events": 377
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-30",
+   "active_users": 22,
+   "feature_events": 454
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-08-31",
+   "active_users": 75,
+   "feature_events": 1475
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-01",
+   "active_users": 73,
+   "feature_events": 1498
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-02",
+   "active_users": 73,
+   "feature_events": 1416
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-03",
+   "active_users": 81,
+   "feature_events": 1512
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-04",
+   "active_users": 79,
+   "feature_events": 1564
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-05",
+   "active_users": 23,
+   "feature_events": 327
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-06",
+   "active_users": 22,
+   "feature_events": 478
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-07",
+   "active_users": 78,
+   "feature_events": 1576
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-08",
+   "active_users": 76,
+   "feature_events": 1503
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-09",
+   "active_users": 76,
+   "feature_events": 1168
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-10",
+   "active_users": 77,
+   "feature_events": 1460
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-11",
+   "active_users": 79,
+   "feature_events": 1199
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-12",
+   "active_users": 23,
+   "feature_events": 328
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-13",
+   "active_users": 24,
+   "feature_events": 357
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-14",
+   "active_users": 69,
+   "feature_events": 1139
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-15",
+   "active_users": 71,
+   "feature_events": 1386
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-16",
+   "active_users": 74,
+   "feature_events": 1495
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-17",
+   "active_users": 80,
+   "feature_events": 1679
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-18",
+   "active_users": 78,
+   "feature_events": 1131
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-19",
+   "active_users": 21,
+   "feature_events": 329
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-20",
+   "active_users": 22,
+   "feature_events": 425
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-21",
+   "active_users": 75,
+   "feature_events": 1238
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-22",
+   "active_users": 71,
+   "feature_events": 1512
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-23",
+   "active_users": 73,
+   "feature_events": 1229
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-24",
+   "active_users": 78,
+   "feature_events": 1542
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-25",
+   "active_users": 77,
+   "feature_events": 1505
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-26",
+   "active_users": 23,
+   "feature_events": 357
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-27",
+   "active_users": 22,
+   "feature_events": 406
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-28",
+   "active_users": 72,
+   "feature_events": 1568
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-29",
+   "active_users": 73,
+   "feature_events": 1191
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-09-30",
+   "active_users": 71,
+   "feature_events": 1394
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-01",
+   "active_users": 73,
+   "feature_events": 1226
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-02",
+   "active_users": 80,
+   "feature_events": 1629
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-03",
+   "active_users": 22,
+   "feature_events": 329
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-04",
+   "active_users": 23,
+   "feature_events": 392
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-05",
+   "active_users": 81,
+   "feature_events": 1664
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-06",
+   "active_users": 80,
+   "feature_events": 1635
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-07",
+   "active_users": 72,
+   "feature_events": 1174
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-08",
+   "active_users": 78,
+   "feature_events": 1308
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-09",
+   "active_users": 74,
+   "feature_events": 1188
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-10",
+   "active_users": 22,
+   "feature_events": 344
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-11",
+   "active_users": 23,
+   "feature_events": 494
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-12",
+   "active_users": 77,
+   "feature_events": 1163
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-13",
+   "active_users": 76,
+   "feature_events": 1421
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "occurred_on": "2026-10-14",
+   "active_users": 72,
+   "feature_events": 1394
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-16",
+   "active_users": 9,
+   "feature_events": 172
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-17",
+   "active_users": 28,
+   "feature_events": 485
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-18",
+   "active_users": 31,
+   "feature_events": 459
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-19",
+   "active_users": 31,
+   "feature_events": 435
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-20",
+   "active_users": 30,
+   "feature_events": 643
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-21",
+   "active_users": 30,
+   "feature_events": 644
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-22",
+   "active_users": 10,
+   "feature_events": 178
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-23",
+   "active_users": 9,
+   "feature_events": 195
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-24",
+   "active_users": 29,
+   "feature_events": 556
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-25",
+   "active_users": 32,
+   "feature_events": 471
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-26",
+   "active_users": 30,
+   "feature_events": 548
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-27",
+   "active_users": 31,
+   "feature_events": 666
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-28",
+   "active_users": 32,
+   "feature_events": 493
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-29",
+   "active_users": 10,
+   "feature_events": 154
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-30",
+   "active_users": 10,
+   "feature_events": 220
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-08-31",
+   "active_users": 30,
+   "feature_events": 539
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-01",
+   "active_users": 32,
+   "feature_events": 694
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-02",
+   "active_users": 32,
+   "feature_events": 672
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-03",
+   "active_users": 28,
+   "feature_events": 519
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-04",
+   "active_users": 28,
+   "feature_events": 612
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-05",
+   "active_users": 9,
+   "feature_events": 197
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-06",
+   "active_users": 9,
+   "feature_events": 162
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-07",
+   "active_users": 32,
+   "feature_events": 666
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-08",
+   "active_users": 30,
+   "feature_events": 466
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-09",
+   "active_users": 28,
+   "feature_events": 428
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-10",
+   "active_users": 30,
+   "feature_events": 482
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-11",
+   "active_users": 28,
+   "feature_events": 557
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-12",
+   "active_users": 9,
+   "feature_events": 167
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-13",
+   "active_users": 9,
+   "feature_events": 139
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-14",
+   "active_users": 32,
+   "feature_events": 678
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-15",
+   "active_users": 32,
+   "feature_events": 580
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-16",
+   "active_users": 28,
+   "feature_events": 542
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-17",
+   "active_users": 28,
+   "feature_events": 423
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-18",
+   "active_users": 29,
+   "feature_events": 464
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-19",
+   "active_users": 9,
+   "feature_events": 143
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-20",
+   "active_users": 9,
+   "feature_events": 195
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-21",
+   "active_users": 29,
+   "feature_events": 574
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-22",
+   "active_users": 28,
+   "feature_events": 538
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-23",
+   "active_users": 31,
+   "feature_events": 449
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-24",
+   "active_users": 28,
+   "feature_events": 461
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-25",
+   "active_users": 30,
+   "feature_events": 541
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-26",
+   "active_users": 10,
+   "feature_events": 196
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-27",
+   "active_users": 9,
+   "feature_events": 134
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-28",
+   "active_users": 32,
+   "feature_events": 524
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-29",
+   "active_users": 31,
+   "feature_events": 488
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-09-30",
+   "active_users": 28,
+   "feature_events": 426
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-01",
+   "active_users": 31,
+   "feature_events": 584
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-02",
+   "active_users": 30,
+   "feature_events": 552
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-03",
+   "active_users": 9,
+   "feature_events": 165
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-04",
+   "active_users": 9,
+   "feature_events": 142
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-05",
+   "active_users": 29,
+   "feature_events": 581
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-06",
+   "active_users": 32,
+   "feature_events": 469
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-07",
+   "active_users": 30,
+   "feature_events": 589
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-08",
+   "active_users": 28,
+   "feature_events": 518
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-09",
+   "active_users": 28,
+   "feature_events": 515
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-10",
+   "active_users": 9,
+   "feature_events": 167
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-11",
+   "active_users": 8,
+   "feature_events": 133
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-12",
+   "active_users": 30,
+   "feature_events": 448
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-13",
+   "active_users": 29,
+   "feature_events": 541
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "occurred_on": "2026-10-14",
+   "active_users": 28,
+   "feature_events": 506
+  }
+ ],
+ "crm_snapshots": [
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 84000,
+   "close_date": "2026-11-28",
+   "champion": "Anita Rao"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 84000,
+   "close_date": "2026-11-28",
+   "champion": "Anita Rao"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 84000,
+   "close_date": "2026-11-28",
+   "champion": "Anita Rao"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 84000,
+   "close_date": "2026-11-28",
+   "champion": "Anita Rao"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 84000,
+   "close_date": "2026-11-28",
+   "champion": "Anita Rao"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 84000,
+   "close_date": "2026-11-28",
+   "champion": "Anita Rao"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 84000,
+   "close_date": "2026-11-28",
+   "champion": "Anita Rao"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 84000,
+   "close_date": "2026-11-28",
+   "champion": "Anita Rao"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-01",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 84000,
+   "close_date": "2026-11-28",
+   "champion": "Anita Rao"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 62000,
+   "close_date": "2026-12-03",
+   "champion": "Marcus Lee"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 62000,
+   "close_date": "2026-12-03",
+   "champion": "Marcus Lee"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 62000,
+   "close_date": "2026-12-03",
+   "champion": "Marcus Lee"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 62000,
+   "close_date": "2026-12-03",
+   "champion": "Marcus Lee"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 62000,
+   "close_date": "2026-12-03",
+   "champion": "Marcus Lee"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 62000,
+   "close_date": "2026-12-03",
+   "champion": "Priya Menon (interim)"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 62000,
+   "close_date": "2026-12-03",
+   "champion": "Priya Menon (interim)"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 62000,
+   "close_date": "2026-12-03",
+   "champion": "Priya Menon (interim)"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-02",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 62000,
+   "close_date": "2026-12-03",
+   "champion": "Priya Menon (interim)"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 210000,
+   "close_date": "2026-11-21",
+   "champion": "Sunita Verma"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 210000,
+   "close_date": "2026-11-21",
+   "champion": "Sunita Verma"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 210000,
+   "close_date": "2026-11-21",
+   "champion": "Sunita Verma"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 210000,
+   "close_date": "2026-11-21",
+   "champion": "Sunita Verma"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 210000,
+   "close_date": "2026-11-21",
+   "champion": "Sunita Verma"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "snapshot_date": "2026-09-23",
+   "stage": "Best Case",
+   "amount": 210000,
+   "close_date": "2027-01-05",
+   "champion": "Sunita Verma"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "snapshot_date": "2026-09-30",
+   "stage": "Best Case",
+   "amount": 210000,
+   "close_date": "2027-01-05",
+   "champion": "Sunita Verma"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "snapshot_date": "2026-10-07",
+   "stage": "Best Case",
+   "amount": 210000,
+   "close_date": "2027-01-05",
+   "champion": "Sunita Verma"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-03",
+   "snapshot_date": "2026-10-14",
+   "stage": "Best Case",
+   "amount": 210000,
+   "close_date": "2027-01-05",
+   "champion": "Sunita Verma"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 58000,
+   "close_date": "2026-12-23",
+   "champion": "Tom Becker"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 58000,
+   "close_date": "2026-12-23",
+   "champion": "Tom Becker"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 58000,
+   "close_date": "2026-12-23",
+   "champion": "Tom Becker"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 58000,
+   "close_date": "2026-12-23",
+   "champion": "Tom Becker"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 58000,
+   "close_date": "2026-12-23",
+   "champion": "Tom Becker"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 58000,
+   "close_date": "2026-12-23",
+   "champion": "Tom Becker"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 58000,
+   "close_date": "2026-12-23",
+   "champion": "Tom Becker"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 58000,
+   "close_date": "2026-12-23",
+   "champion": "Tom Becker"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-04",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 58000,
+   "close_date": "2026-12-23",
+   "champion": "Tom Becker"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 24000,
+   "close_date": "2027-01-07",
+   "champion": "Farah Iqbal"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 24000,
+   "close_date": "2027-01-07",
+   "champion": "Farah Iqbal"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 24000,
+   "close_date": "2027-01-07",
+   "champion": "Farah Iqbal"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 24000,
+   "close_date": "2027-01-07",
+   "champion": "Farah Iqbal"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 24000,
+   "close_date": "2027-01-07",
+   "champion": "Farah Iqbal"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 24000,
+   "close_date": "2027-01-07",
+   "champion": "Farah Iqbal"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 24000,
+   "close_date": "2027-01-07",
+   "champion": "Farah Iqbal"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 24000,
+   "close_date": "2027-01-07",
+   "champion": "Farah Iqbal"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-05",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 24000,
+   "close_date": "2027-01-07",
+   "champion": "Farah Iqbal"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 175000,
+   "close_date": "2027-01-12",
+   "champion": "Greg Salazar"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 175000,
+   "close_date": "2027-01-12",
+   "champion": "Greg Salazar"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 175000,
+   "close_date": "2027-01-12",
+   "champion": "Greg Salazar"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 175000,
+   "close_date": "2027-01-12",
+   "champion": "Greg Salazar"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 175000,
+   "close_date": "2027-01-12",
+   "champion": "Greg Salazar"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 175000,
+   "close_date": "2027-01-12",
+   "champion": "Greg Salazar"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 175000,
+   "close_date": "2027-01-12",
+   "champion": "Greg Salazar"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 175000,
+   "close_date": "2027-01-12",
+   "champion": "Greg Salazar"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-06",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 175000,
+   "close_date": "2027-01-12",
+   "champion": "Greg Salazar"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 71000,
+   "close_date": "2026-11-25",
+   "champion": "Nina Petrov"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 71000,
+   "close_date": "2026-11-25",
+   "champion": "Nina Petrov"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 71000,
+   "close_date": "2026-11-25",
+   "champion": "Nina Petrov"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 71000,
+   "close_date": "2026-11-25",
+   "champion": "Nina Petrov"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 71000,
+   "close_date": "2026-11-25",
+   "champion": "Nina Petrov"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 71000,
+   "close_date": "2026-11-25",
+   "champion": "Nina Petrov"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 71000,
+   "close_date": "2026-11-25",
+   "champion": "Nina Petrov"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 71000,
+   "close_date": "2026-11-25",
+   "champion": "Nina Petrov"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-07",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 71000,
+   "close_date": "2026-11-25",
+   "champion": "Nina Petrov"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 31000,
+   "close_date": "2026-12-28",
+   "champion": "Raj Malhotra"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 31000,
+   "close_date": "2026-12-28",
+   "champion": "Raj Malhotra"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 31000,
+   "close_date": "2026-12-28",
+   "champion": "Raj Malhotra"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 31000,
+   "close_date": "2026-12-28",
+   "champion": "Raj Malhotra"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 31000,
+   "close_date": "2026-12-28",
+   "champion": "Raj Malhotra"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 31000,
+   "close_date": "2026-12-28",
+   "champion": "Raj Malhotra"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 31000,
+   "close_date": "2026-12-28",
+   "champion": "Raj Malhotra"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 31000,
+   "close_date": "2026-12-28",
+   "champion": "Raj Malhotra"
+  },
+  {
+   "tenant_id": "t_cloudmetric",
+   "account_id": "cm-08",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 31000,
+   "close_date": "2026-12-28",
+   "champion": "Raj Malhotra"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 240000,
+   "close_date": "2026-11-23",
+   "champion": "Helen Cho"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 240000,
+   "close_date": "2026-11-23",
+   "champion": "Helen Cho"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 240000,
+   "close_date": "2026-11-23",
+   "champion": "Helen Cho"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 240000,
+   "close_date": "2026-11-23",
+   "champion": "Helen Cho"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 240000,
+   "close_date": "2026-11-23",
+   "champion": "Helen Cho"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 240000,
+   "close_date": "2026-11-23",
+   "champion": "Helen Cho"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 240000,
+   "close_date": "2026-11-23",
+   "champion": "Helen Cho"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 240000,
+   "close_date": "2026-11-23",
+   "champion": "Helen Cho"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-01",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 240000,
+   "close_date": "2026-11-23",
+   "champion": "Helen Cho"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 96000,
+   "close_date": "2026-11-18",
+   "champion": "Vikram Nair"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 96000,
+   "close_date": "2026-11-18",
+   "champion": "Vikram Nair"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 96000,
+   "close_date": "2026-11-18",
+   "champion": "Vikram Nair"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 96000,
+   "close_date": "2026-11-18",
+   "champion": "Vikram Nair"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 96000,
+   "close_date": "2026-11-18",
+   "champion": "(none listed)"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 96000,
+   "close_date": "2026-11-18",
+   "champion": "(none listed)"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "snapshot_date": "2026-09-30",
+   "stage": "Best Case",
+   "amount": 96000,
+   "close_date": "2026-12-18",
+   "champion": "(none listed)"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "snapshot_date": "2026-10-07",
+   "stage": "Best Case",
+   "amount": 96000,
+   "close_date": "2026-12-18",
+   "champion": "(none listed)"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-02",
+   "snapshot_date": "2026-10-14",
+   "stage": "Best Case",
+   "amount": 96000,
+   "close_date": "2026-12-18",
+   "champion": "(none listed)"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 67000,
+   "close_date": "2026-12-01",
+   "champion": "Alicia Gomez"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 67000,
+   "close_date": "2026-12-01",
+   "champion": "Alicia Gomez"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 67000,
+   "close_date": "2026-12-01",
+   "champion": "Alicia Gomez"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 67000,
+   "close_date": "2026-12-01",
+   "champion": "Alicia Gomez"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 67000,
+   "close_date": "2026-12-01",
+   "champion": "Alicia Gomez"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 67000,
+   "close_date": "2026-12-01",
+   "champion": "Alicia Gomez"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 67000,
+   "close_date": "2026-12-01",
+   "champion": "Alicia Gomez"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 67000,
+   "close_date": "2026-12-01",
+   "champion": "Alicia Gomez"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-03",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 67000,
+   "close_date": "2026-12-01",
+   "champion": "Alicia Gomez"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 188000,
+   "close_date": "2026-12-19",
+   "champion": "Peter Hanson"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 188000,
+   "close_date": "2026-12-19",
+   "champion": "Peter Hanson"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 188000,
+   "close_date": "2026-12-19",
+   "champion": "Peter Hanson"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 188000,
+   "close_date": "2026-12-19",
+   "champion": "Peter Hanson"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 188000,
+   "close_date": "2026-12-19",
+   "champion": "Peter Hanson"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 188000,
+   "close_date": "2026-12-19",
+   "champion": "Peter Hanson"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 188000,
+   "close_date": "2026-12-19",
+   "champion": "Peter Hanson"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 188000,
+   "close_date": "2026-12-19",
+   "champion": "Peter Hanson"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-04",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 188000,
+   "close_date": "2026-12-19",
+   "champion": "Peter Hanson"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 29000,
+   "close_date": "2027-01-02",
+   "champion": "Lina Haddad"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 29000,
+   "close_date": "2027-01-02",
+   "champion": "Lina Haddad"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 29000,
+   "close_date": "2027-01-02",
+   "champion": "Lina Haddad"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 29000,
+   "close_date": "2027-01-02",
+   "champion": "Lina Haddad"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 29000,
+   "close_date": "2027-01-02",
+   "champion": "Lina Haddad"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 29000,
+   "close_date": "2027-01-02",
+   "champion": "Lina Haddad"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 29000,
+   "close_date": "2027-01-02",
+   "champion": "Lina Haddad"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 29000,
+   "close_date": "2027-01-02",
+   "champion": "Lina Haddad"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-05",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 29000,
+   "close_date": "2027-01-02",
+   "champion": "Lina Haddad"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 89000,
+   "close_date": "2027-01-10",
+   "champion": "Omar Siddiqui"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 89000,
+   "close_date": "2027-01-10",
+   "champion": "Omar Siddiqui"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 89000,
+   "close_date": "2027-01-10",
+   "champion": "Omar Siddiqui"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 89000,
+   "close_date": "2027-01-10",
+   "champion": "Omar Siddiqui"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 89000,
+   "close_date": "2027-01-10",
+   "champion": "Omar Siddiqui"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 89000,
+   "close_date": "2027-01-10",
+   "champion": "Omar Siddiqui"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 89000,
+   "close_date": "2027-01-10",
+   "champion": "Omar Siddiqui"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 89000,
+   "close_date": "2027-01-10",
+   "champion": "Omar Siddiqui"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-06",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 89000,
+   "close_date": "2027-01-10",
+   "champion": "Omar Siddiqui"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 54000,
+   "close_date": "2026-11-13",
+   "champion": "Beth Walker"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 54000,
+   "close_date": "2026-11-13",
+   "champion": "Beth Walker"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 54000,
+   "close_date": "2026-11-13",
+   "champion": "Beth Walker"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 54000,
+   "close_date": "2026-11-13",
+   "champion": "Beth Walker"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 54000,
+   "close_date": "2026-11-13",
+   "champion": "Beth Walker"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 54000,
+   "close_date": "2026-11-13",
+   "champion": "Beth Walker"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 54000,
+   "close_date": "2026-12-04",
+   "champion": "Beth Walker"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 54000,
+   "close_date": "2026-12-04",
+   "champion": "Beth Walker"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-07",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 54000,
+   "close_date": "2026-12-04",
+   "champion": "Beth Walker"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "snapshot_date": "2026-08-19",
+   "stage": "Commit",
+   "amount": 22000,
+   "close_date": "2026-12-25",
+   "champion": "Carlos Rivera"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "snapshot_date": "2026-08-26",
+   "stage": "Commit",
+   "amount": 22000,
+   "close_date": "2026-12-25",
+   "champion": "Carlos Rivera"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "snapshot_date": "2026-09-02",
+   "stage": "Commit",
+   "amount": 22000,
+   "close_date": "2026-12-25",
+   "champion": "Carlos Rivera"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "snapshot_date": "2026-09-09",
+   "stage": "Commit",
+   "amount": 22000,
+   "close_date": "2026-12-25",
+   "champion": "Carlos Rivera"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "snapshot_date": "2026-09-16",
+   "stage": "Commit",
+   "amount": 22000,
+   "close_date": "2026-12-25",
+   "champion": "Carlos Rivera"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "snapshot_date": "2026-09-23",
+   "stage": "Commit",
+   "amount": 22000,
+   "close_date": "2026-12-25",
+   "champion": "Carlos Rivera"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "snapshot_date": "2026-09-30",
+   "stage": "Commit",
+   "amount": 22000,
+   "close_date": "2026-12-25",
+   "champion": "Carlos Rivera"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "snapshot_date": "2026-10-07",
+   "stage": "Commit",
+   "amount": 22000,
+   "close_date": "2026-12-25",
+   "champion": "Carlos Rivera"
+  },
+  {
+   "tenant_id": "t_flowdesk",
+   "account_id": "fd-08",
+   "snapshot_date": "2026-10-14",
+   "stage": "Commit",
+   "amount": 22000,
+   "close_date": "2026-12-25",
+   "champion": "Carlos Rivera"
+  }
+ ]
+}
