@@ -98,3 +98,5 @@ CREATE TABLE IF NOT EXISTS audit_log (
     created_at  TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 CREATE INDEX IF NOT EXISTS idx_audit_tenant ON audit_log(tenant_id, created_at);
+
+ALTER TABLE findings ADD COLUMN IF NOT EXISTS cause TEXT;

@@ -1,0 +1,42 @@
+{
+ "call-cm-01-1": {
+  "attempts": 1,
+  "passed": true
+ },
+ "call-cm-02-2": {
+  "attempts": 1,
+  "passed": true
+ },
+ "call-cm-03-2": {
+  "attempts": 1,
+  "passed": true
+ },
+ "call-cm-07-1": {
+  "attempts": 1,
+  "passed": true
+ },
+ "call-cm-07-2": {
+  "attempts": 1,
+  "passed": true
+ },
+ "call-fd-01-2": {
+  "attempts": 1,
+  "passed": true
+ },
+ "call-fd-03-1": {
+  "attempts": 1,
+  "passed": true
+ },
+ "call-fd-03-2": {
+  "attempts": 1,
+  "passed": true
+ },
+ "call-fd-06-2": {
+  "attempts": 1,
+  "passed": true
+ },
+ "call-fd-07-1": {
+  "attempts": 1,
+  "passed": true
+ }
+}

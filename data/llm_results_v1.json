@@ -1,0 +1,575 @@
+[
+ {
+  "account_id": "cm-01",
+  "tenant_id": "t_cloudmetric",
+  "verdict": "at_risk",
+  "confidence": 0.78,
+  "cause": "budget_pressure",
+  "summary": "Usage has dropped 41% to 71 users/day this week (baseline 120) and the champion notes a finance freeze on software spend, raising the chance of seat reductions at renewal. The combination of declining usage and budget constraints signals a renewal risk.",
+  "downgraded": false,
+  "citations": [
+   "usage:cm-01:2026-10-08..2026-10-14",
+   "chunk:9"
+  ],
+  "valid_citations": [
+   "usage:cm-01:2026-10-08..2026-10-14",
+   "chunk:9"
+  ],
+  "invalid_citations": [],
+  "status": "accepted",
+  "detector_hits": [
+   "usage_drop"
+  ],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 1.85,
+  "prompt_tokens": 1881,
+  "completion_tokens": 394,
+  "total_tokens": 2275,
+  "truth_at_risk": true,
+  "truth_cause": "budget_freeze_with_usage_decline",
+  "difficulty": "easy",
+  "decoy": false,
+  "strict": "TP",
+  "lenient": "TP",
+  "baseline_b": "TP",
+  "cause_ok": true
+ },
+ {
+  "account_id": "cm-02",
+  "tenant_id": "t_cloudmetric",
+  "verdict": "at_risk",
+  "confidence": 0.78,
+  "cause": "champion_departure",
+  "summary": "Usage has slipped 14% below baseline and the primary champion, Marcus, announced a move to a different focus area, leaving an interim contact. The new champion is still getting up\u2011to\u2011speed, which raises renewal risk.",
+  "downgraded": false,
+  "citations": [
+   "usage:cm-02:2026-10-08..2026-10-14",
+   "crm:18",
+   "chunk:16"
+  ],
+  "valid_citations": [
+   "usage:cm-02:2026-10-08..2026-10-14",
+   "crm:18",
+   "chunk:16"
+  ],
+  "invalid_citations": [],
+  "status": "accepted",
+  "detector_hits": [
+   "usage_drop",
+   "champion_change"
+  ],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 5.1,
+  "prompt_tokens": 2385,
+  "completion_tokens": 465,
+  "total_tokens": 2850,
+  "truth_at_risk": true,
+  "truth_cause": "champion_left",
+  "difficulty": "medium",
+  "decoy": false,
+  "strict": "TP",
+  "lenient": "TP",
+  "baseline_b": "TP",
+  "cause_ok": true
+ },
+ {
+  "account_id": "cm-03",
+  "tenant_id": "t_cloudmetric",
+  "verdict": "at_risk",
+  "confidence": 0.78,
+  "cause": "renewal_delay",
+  "summary": "The renewal is slipping past the target date, with procurement flagging clauses and a competitor demo causing a delay; the close date has already moved 45 days later. Usage remains stable, but the contract timeline and competitive pressure create a real risk.",
+  "downgraded": false,
+  "citations": [
+   "crm:24",
+   "crm:27",
+   "usage:cm-03:2026-10-08..2026-10-14",
+   "chunk:35",
+   "chunk:36",
+   "chunk:37"
+  ],
+  "valid_citations": [
+   "crm:24",
+   "crm:27",
+   "usage:cm-03:2026-10-08..2026-10-14",
+   "chunk:35",
+   "chunk:36",
+   "chunk:37"
+  ],
+  "invalid_citations": [],
+  "status": "accepted",
+  "detector_hits": [
+   "stage_downgrade",
+   "close_date_slip"
+  ],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 1.65,
+  "prompt_tokens": 2385,
+  "completion_tokens": 323,
+  "total_tokens": 2708,
+  "truth_at_risk": true,
+  "truth_cause": "renewal_slip_competitor_eval",
+  "difficulty": "easy",
+  "decoy": false,
+  "strict": "TP",
+  "lenient": "TP",
+  "baseline_b": "TP",
+  "cause_ok": true
+ },
+ {
+  "account_id": "cm-04",
+  "tenant_id": "t_cloudmetric",
+  "verdict": "healthy",
+  "confidence": 0.93,
+  "cause": "none",
+  "summary": "The dip in active users during the week of 2026\u201109\u201124 was a planned off\u2011site shutdown, as confirmed by Tom in the 2026\u201109\u201104 planning call, and usage has since returned to baseline. The champion remains engaged and the renewal remains on track.",
+  "downgraded": false,
+  "citations": [
+   "usage:cm-04:2026-09-24..2026-09-30",
+   "chunk:40"
+  ],
+  "valid_citations": [
+   "usage:cm-04:2026-09-24..2026-09-30",
+   "chunk:40"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [
+   "usage_drop"
+  ],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 3.83,
+  "prompt_tokens": 2481,
+  "completion_tokens": 357,
+  "total_tokens": 2838,
+  "truth_at_risk": false,
+  "truth_cause": "planned_shutdown_week",
+  "difficulty": "medium",
+  "decoy": true,
+  "strict": "TN",
+  "lenient": "TN",
+  "baseline_b": "TN",
+  "cause_ok": null
+ },
+ {
+  "account_id": "cm-05",
+  "tenant_id": "t_cloudmetric",
+  "verdict": "healthy",
+  "confidence": 0.92,
+  "cause": "none",
+  "summary": "Usage remains steady around 40 daily active users and the account stays in the Commit stage with the same champion, Farah Iqbal. Recent calls show no complaints, a confirmed renewal plan, and only routine feature requests. No indicators of budget pressure, churn, or disengagement are present.",
+  "downgraded": false,
+  "citations": [
+   "usage:cm-05:2026-10-01..2026-10-07",
+   "crm:45",
+   "chunk:64"
+  ],
+  "valid_citations": [
+   "usage:cm-05:2026-10-01..2026-10-07",
+   "crm:45",
+   "chunk:64"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 1.34,
+  "prompt_tokens": 2241,
+  "completion_tokens": 229,
+  "total_tokens": 2470,
+  "truth_at_risk": false,
+  "truth_cause": "healthy",
+  "difficulty": "easy",
+  "decoy": false,
+  "strict": "TN",
+  "lenient": "TN",
+  "baseline_b": "TN",
+  "cause_ok": null
+ },
+ {
+  "account_id": "cm-06",
+  "tenant_id": "t_cloudmetric",
+  "verdict": "healthy",
+  "confidence": 0.95,
+  "cause": "none",
+  "summary": "Atlas Freight is actively expanding its seat count and usage is trending upward, with the champion Greg Salazar consistently engaged and the deal staying in Commit stage. The upcoming finance review and draft contract for a multi\u2011year term indicate a strong renewal likelihood.",
+  "downgraded": false,
+  "citations": [
+   "usage:cm-06:2026-10-08..2026-10-14",
+   "crm:54",
+   "chunk:74"
+  ],
+  "valid_citations": [
+   "usage:cm-06:2026-10-08..2026-10-14",
+   "crm:54",
+   "chunk:74"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 1.59,
+  "prompt_tokens": 2694,
+  "completion_tokens": 247,
+  "total_tokens": 2941,
+  "truth_at_risk": false,
+  "truth_cause": "healthy_growing",
+  "difficulty": "easy",
+  "decoy": false,
+  "strict": "TN",
+  "lenient": "TN",
+  "baseline_b": "TN",
+  "cause_ok": null
+ },
+ {
+  "account_id": "cm-07",
+  "tenant_id": "t_cloudmetric",
+  "verdict": "needs_review",
+  "confidence": 0.55,
+  "cause": "budget_pressure",
+  "summary": "Nina indicates the renewal is still pending finance sign\u2011off and that leadership priorities are being re\u2011evaluated, which could delay the contract. Usage remains stable, but the uncertainty around budget and internal focus suggests a potential risk that warrants a closer look.",
+  "downgraded": false,
+  "citations": [
+   "chunk:84",
+   "crm:63"
+  ],
+  "valid_citations": [
+   "chunk:84",
+   "crm:63"
+  ],
+  "invalid_citations": [],
+  "status": "accepted",
+  "detector_hits": [],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 4.93,
+  "prompt_tokens": 2314,
+  "completion_tokens": 374,
+  "total_tokens": 2688,
+  "truth_at_risk": true,
+  "truth_cause": "silent_disengagement",
+  "difficulty": "hard",
+  "decoy": false,
+  "strict": "FN",
+  "lenient": "TP",
+  "baseline_b": "FN",
+  "cause_ok": null
+ },
+ {
+  "account_id": "cm-08",
+  "tenant_id": "t_cloudmetric",
+  "verdict": "healthy",
+  "confidence": 0.95,
+  "cause": "none",
+  "summary": "Usage has remained steady around 35\u201136 daily active users and the account stays in the Commit stage with the same champion, Raj. Recent calls show the customer is satisfied, planning training for new hires, and looking forward to upcoming features, indicating renewal is on track.",
+  "downgraded": false,
+  "citations": [
+   "usage:cm-08:2026-10-08..2026-10-14",
+   "crm:72"
+  ],
+  "valid_citations": [
+   "usage:cm-08:2026-10-08..2026-10-14",
+   "crm:72"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 9.63,
+  "prompt_tokens": 2274,
+  "completion_tokens": 298,
+  "total_tokens": 2572,
+  "truth_at_risk": false,
+  "truth_cause": "healthy",
+  "difficulty": "easy",
+  "decoy": false,
+  "strict": "TN",
+  "lenient": "TN",
+  "baseline_b": "TN",
+  "cause_ok": null
+ },
+ {
+  "account_id": "fd-01",
+  "tenant_id": "t_flowdesk",
+  "verdict": "at_risk",
+  "confidence": 0.86,
+  "cause": "competitor_risk",
+  "summary": "Usage has dropped 39% this week and the champion reports that the team is already using a competitor\u2019s tool for new projects due to better integration. The VP of Operations is also considering consolidating tools unless we quickly demonstrate ROI, indicating a real renewal risk.",
+  "downgraded": false,
+  "citations": [
+   "usage:fd-01:2026-10-08..2026-10-14",
+   "chunk:108",
+   "chunk:114"
+  ],
+  "valid_citations": [
+   "usage:fd-01:2026-10-08..2026-10-14",
+   "chunk:108",
+   "chunk:114"
+  ],
+  "invalid_citations": [],
+  "status": "accepted",
+  "detector_hits": [
+   "usage_drop"
+  ],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 10.55,
+  "prompt_tokens": 2236,
+  "completion_tokens": 309,
+  "total_tokens": 2545,
+  "truth_at_risk": true,
+  "truth_cause": "competitor_adoption_with_usage_decline",
+  "difficulty": "easy",
+  "decoy": false,
+  "strict": "TP",
+  "lenient": "TP",
+  "baseline_b": "TP",
+  "cause_ok": true
+ },
+ {
+  "account_id": "fd-02",
+  "tenant_id": "t_flowdesk",
+  "verdict": "at_risk",
+  "confidence": 0.84,
+  "cause": "budget_pressure",
+  "summary": "Usage has dropped 12\u201115% below baseline and the CRM stage fell to Best Case with the close date pushed a month later. The finance contact said the renewal budget was re\u2011allocated to a new AI project, creating uncertainty around timing. The original champion is no longer listed.",
+  "downgraded": false,
+  "citations": [
+   "usage:fd-02:2026-10-01..2026-10-07",
+   "crm:90",
+   "chunk:128"
+  ],
+  "valid_citations": [
+   "usage:fd-02:2026-10-01..2026-10-07",
+   "crm:90",
+   "chunk:128"
+  ],
+  "invalid_citations": [],
+  "status": "accepted",
+  "detector_hits": [
+   "usage_drop",
+   "stage_downgrade",
+   "close_date_slip",
+   "champion_change"
+  ],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 13.5,
+  "prompt_tokens": 2413,
+  "completion_tokens": 422,
+  "total_tokens": 2835,
+  "truth_at_risk": true,
+  "truth_cause": "champion_reorg_budget_moved",
+  "difficulty": "medium",
+  "decoy": false,
+  "strict": "TP",
+  "lenient": "TP",
+  "baseline_b": "TP",
+  "cause_ok": true
+ },
+ {
+  "account_id": "fd-03",
+  "tenant_id": "t_flowdesk",
+  "verdict": "healthy",
+  "confidence": 0.85,
+  "cause": "none",
+  "summary": "Usage remains stable around 80\u201190 daily active users and the account stays in the Commit stage with the same champion, Alicia Gomez. Recent calls show ongoing interest in new features and a scheduled demo, indicating continued engagement.",
+  "downgraded": false,
+  "citations": [
+   "usage:fd-03:2026-10-01..2026-10-07",
+   "crm:99"
+  ],
+  "valid_citations": [
+   "usage:fd-03:2026-10-01..2026-10-07",
+   "crm:99"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 6.0,
+  "prompt_tokens": 2016,
+  "completion_tokens": 240,
+  "total_tokens": 2256,
+  "truth_at_risk": true,
+  "truth_cause": "sponsor_leaving_vendor_review",
+  "difficulty": "hard",
+  "decoy": false,
+  "strict": "FN",
+  "lenient": "FN",
+  "baseline_b": "FN",
+  "cause_ok": null
+ },
+ {
+  "account_id": "fd-04",
+  "tenant_id": "t_flowdesk",
+  "verdict": "healthy",
+  "confidence": 0.92,
+  "cause": "none",
+  "summary": "The sharp usage drop in late September was explained by a planned data\u2011warehouse migration and usage has already rebounded to near\u2011baseline levels. Peter Hanson remains the champion and the deal stays in Commit stage, so renewal looks on track.",
+  "downgraded": false,
+  "citations": [
+   "usage:fd-04:2026-09-24..2026-09-30",
+   "usage:fd-04:2026-10-01..2026-10-07",
+   "chunk:146"
+  ],
+  "valid_citations": [
+   "usage:fd-04:2026-09-24..2026-09-30",
+   "usage:fd-04:2026-10-01..2026-10-07",
+   "chunk:146"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [
+   "usage_drop"
+  ],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 6.76,
+  "prompt_tokens": 2017,
+  "completion_tokens": 387,
+  "total_tokens": 2404,
+  "truth_at_risk": false,
+  "truth_cause": "data_migration_temporary_dip",
+  "difficulty": "medium",
+  "decoy": true,
+  "strict": "TN",
+  "lenient": "TN",
+  "baseline_b": "TN",
+  "cause_ok": null
+ },
+ {
+  "account_id": "fd-05",
+  "tenant_id": "t_flowdesk",
+  "verdict": "healthy",
+  "confidence": 0.85,
+  "cause": "none",
+  "summary": "Usage remains steady at ~45\u201146 daily users and the account stays in the Commit stage with champion Lina still engaged. Recent calls resolved a billing discount issue quickly, indicating no immediate renewal concerns.",
+  "downgraded": false,
+  "citations": [
+   "usage:fd-05:2026-10-08..2026-10-14",
+   "crm:117",
+   "chunk:172"
+  ],
+  "valid_citations": [
+   "usage:fd-05:2026-10-08..2026-10-14",
+   "crm:117",
+   "chunk:172"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 10.02,
+  "prompt_tokens": 2034,
+  "completion_tokens": 375,
+  "total_tokens": 2409,
+  "truth_at_risk": false,
+  "truth_cause": "healthy",
+  "difficulty": "easy",
+  "decoy": false,
+  "strict": "TN",
+  "lenient": "TN",
+  "baseline_b": "TN",
+  "cause_ok": null
+ },
+ {
+  "account_id": "fd-06",
+  "tenant_id": "t_flowdesk",
+  "verdict": "healthy",
+  "confidence": 0.95,
+  "cause": "none",
+  "summary": "Redwood Biotech\u2019s active users have risen from 105 to 123 per day over the past two months and the CRM record remains in the Commit stage with champion Omar still engaged. Recent calls show expansion plans for a new Austin team and a willingness to act as a reference, indicating strong satisfaction and intent to renew.",
+  "downgraded": false,
+  "citations": [
+   "usage:fd-06:2026-10-08..2026-10-14",
+   "crm:126"
+  ],
+  "valid_citations": [
+   "usage:fd-06:2026-10-08..2026-10-14",
+   "crm:126"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 12.9,
+  "prompt_tokens": 2418,
+  "completion_tokens": 244,
+  "total_tokens": 2662,
+  "truth_at_risk": false,
+  "truth_cause": "healthy_growing",
+  "difficulty": "easy",
+  "decoy": false,
+  "strict": "TN",
+  "lenient": "TN",
+  "baseline_b": "TN",
+  "cause_ok": null
+ },
+ {
+  "account_id": "fd-07",
+  "tenant_id": "t_flowdesk",
+  "verdict": "healthy",
+  "confidence": 0.85,
+  "cause": "none",
+  "summary": "Usage remains steady (~75 users/day) and the champion is actively coordinating renewal paperwork, confirming the agreement will be signed before month\u2011end. The close\u2011date shift is a procedural delay that both sides have agreed is manageable.",
+  "downgraded": false,
+  "citations": [
+   "usage:fd-07:2026-10-01..2026-10-07",
+   "chunk:191"
+  ],
+  "valid_citations": [
+   "usage:fd-07:2026-10-01..2026-10-07",
+   "chunk:191"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [
+   "close_date_slip"
+  ],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 9.41,
+  "prompt_tokens": 2191,
+  "completion_tokens": 330,
+  "total_tokens": 2521,
+  "truth_at_risk": false,
+  "truth_cause": "procurement_delay_renewal_confirmed",
+  "difficulty": "medium",
+  "decoy": true,
+  "strict": "TN",
+  "lenient": "TN",
+  "baseline_b": "FP",
+  "cause_ok": null
+ },
+ {
+  "account_id": "fd-08",
+  "tenant_id": "t_flowdesk",
+  "verdict": "healthy",
+  "confidence": 0.95,
+  "cause": "none",
+  "summary": "Usage has remained steady around 30 daily active users and the champion Carlos Rivera is still engaged. In the latest renewal\u2011intent call Carlos confirmed he will renew the Enterprise tier with the same pricing and no changes. There are no indications of budget pressure, competitor evaluation, or disengagement.",
+  "downgraded": false,
+  "citations": [
+   "usage:fd-08:2026-10-08..2026-10-14",
+   "crm:144",
+   "chunk:210"
+  ],
+  "valid_citations": [
+   "usage:fd-08:2026-10-08..2026-10-14",
+   "crm:144",
+   "chunk:210"
+  ],
+  "invalid_citations": [],
+  "status": "no_finding",
+  "detector_hits": [],
+  "model": "openai/gpt-oss-120b",
+  "latency_s": 9.99,
+  "prompt_tokens": 2567,
+  "completion_tokens": 273,
+  "total_tokens": 2840,
+  "truth_at_risk": false,
+  "truth_cause": "healthy",
+  "difficulty": "easy",
+  "decoy": false,
+  "strict": "TN",
+  "lenient": "TN",
+  "baseline_b": "TN",
+  "cause_ok": null
+ }
+]

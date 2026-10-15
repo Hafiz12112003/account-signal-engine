@@ -1,0 +1,322 @@
+[
+ {
+  "id": "call-cm-01-1",
+  "account_id": "cm-01",
+  "signal": "indirect",
+  "pass": false,
+  "conveyed": true,
+  "contradicts_or_adds_cause": true,
+  "evidence": "Honestly, it\u2019s been\u2026 delayed",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-01-2",
+  "account_id": "cm-01",
+  "signal": "explicit",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "finance team just put a freeze on any new software spend",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-02-1",
+  "account_id": "cm-02",
+  "signal": "indirect",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "I\u2019m moving to a different focus area within the company.",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-02-2",
+  "account_id": "cm-02",
+  "signal": "explicit",
+  "pass": false,
+  "conveyed": true,
+  "contradicts_or_adds_cause": true,
+  "evidence": "I haven\u2019t had a chance to actually open the platform yet.",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-03-1",
+  "account_id": "cm-03",
+  "signal": "indirect",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "Procurement is also looking at a couple of other vendors",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-03-2",
+  "account_id": "cm-03",
+  "signal": "explicit",
+  "pass": false,
+  "conveyed": true,
+  "contradicts_or_adds_cause": true,
+  "evidence": "review process is taking a bit longer",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-04-1",
+  "account_id": "cm-04",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "Our whole company is basically going dark for a week",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-04-2",
+  "account_id": "cm-04",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "team\u2019s back now and we\u2019re swamped catching up",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-05-1",
+  "account_id": "cm-05",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "three new teammates joining\u2014welcome aboard!",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-05-2",
+  "account_id": "cm-05",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "We'll keep it as is.",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-06-1",
+  "account_id": "cm-06",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "pretty pumped about the rollout\u2014seeing solid traction across departments",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-06-2",
+  "account_id": "cm-06",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "we\u2019ll walk through the expansion options, look at the pricing",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-07-1",
+  "account_id": "cm-07",
+  "signal": "indirect",
+  "pass": false,
+  "conveyed": true,
+  "contradicts_or_adds_cause": true,
+  "evidence": "things are\u2026 well, you know, a bit up in the air",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-07-2",
+  "account_id": "cm-07",
+  "signal": "indirect",
+  "pass": false,
+  "conveyed": true,
+  "contradicts_or_adds_cause": true,
+  "evidence": "I\u2019m just waiting to see how the next quarter shapes up",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-08-1",
+  "account_id": "cm-08",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "It seemed to work\u2014no more missing rows.",
+  "missing": ""
+ },
+ {
+  "id": "call-cm-08-2",
+  "account_id": "cm-08",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "see you at renewal",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-01-1",
+  "account_id": "fd-01",
+  "signal": "explicit",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "team has started using a competitor tool for new projects",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-01-2",
+  "account_id": "fd-01",
+  "signal": "explicit",
+  "pass": false,
+  "conveyed": true,
+  "contradicts_or_adds_cause": true,
+  "evidence": "sync is still broken, impacting adoption numbers",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-02-1",
+  "account_id": "fd-02",
+  "signal": "indirect",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "There\u2019s a reorg in the works, so I might be wearing",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-02-2",
+  "account_id": "fd-02",
+  "signal": "explicit",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "budget ... has been re\u2011allocated to a different initiative",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-03-1",
+  "account_id": "fd-03",
+  "signal": "indirect",
+  "pass": false,
+  "conveyed": false,
+  "contradicts_or_adds_cause": false,
+  "evidence": "",
+  "missing": "executive sponsor leaving month\u2011end and replacement\u2019s preferred vendors"
+ },
+ {
+  "id": "call-fd-03-2",
+  "account_id": "fd-03",
+  "signal": "indirect",
+  "pass": false,
+  "conveyed": true,
+  "contradicts_or_adds_cause": true,
+  "evidence": "list of all the contracts we have with you",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-04-1",
+  "account_id": "fd-04",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "our usage of your platform is going to dip",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-04-2",
+  "account_id": "fd-04",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "migration wrapped up on our end on Friday",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-05-1",
+  "account_id": "fd-05",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "routine check\u2011in ... training resources you might need",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-05-2",
+  "account_id": "fd-05",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "I saw you wanted to talk about the annual billing discount?",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-06-1",
+  "account_id": "fd-06",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "expanding to a second lab team?",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-06-2",
+  "account_id": "fd-06",
+  "signal": "none",
+  "pass": false,
+  "conveyed": false,
+  "contradicts_or_adds_cause": true,
+  "evidence": "would you be open to being a reference customer?",
+  "missing": "Champion offers to be a reference customer."
+ },
+ {
+  "id": "call-fd-07-1",
+  "account_id": "fd-07",
+  "signal": "none",
+  "pass": false,
+  "conveyed": true,
+  "contradicts_or_adds_cause": true,
+  "evidence": "procurement team\u2014they\u2019ve instituted an extra vendor\u2011security review this year",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-07-2",
+  "account_id": "fd-07",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "We\u2019re aiming for two weeks from now",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-08-1",
+  "account_id": "fd-08",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "I\u2019ve got a small feature request.",
+  "missing": ""
+ },
+ {
+  "id": "call-fd-08-2",
+  "account_id": "fd-08",
+  "signal": "none",
+  "pass": true,
+  "conveyed": true,
+  "contradicts_or_adds_cause": false,
+  "evidence": "we\u2019ll renew the Enterprise tier, same pricing with discount",
+  "missing": ""
+ }
+]

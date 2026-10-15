@@ -1,0 +1,183 @@
+[
+ {
+  "account_id": "cm-01",
+  "tenant_id": "t_cloudmetric",
+  "at_risk": true,
+  "decoy": false,
+  "difficulty": "easy",
+  "hits": [
+   "usage_drop"
+  ],
+  "baseline_a": "TP",
+  "baseline_b": "TP"
+ },
+ {
+  "account_id": "cm-02",
+  "tenant_id": "t_cloudmetric",
+  "at_risk": true,
+  "decoy": false,
+  "difficulty": "medium",
+  "hits": [
+   "usage_drop",
+   "champion_change"
+  ],
+  "baseline_a": "TP",
+  "baseline_b": "TP"
+ },
+ {
+  "account_id": "cm-03",
+  "tenant_id": "t_cloudmetric",
+  "at_risk": true,
+  "decoy": false,
+  "difficulty": "easy",
+  "hits": [
+   "stage_downgrade",
+   "close_date_slip"
+  ],
+  "baseline_a": "TP",
+  "baseline_b": "TP"
+ },
+ {
+  "account_id": "cm-04",
+  "tenant_id": "t_cloudmetric",
+  "at_risk": false,
+  "decoy": true,
+  "difficulty": "medium",
+  "hits": [
+   "usage_drop"
+  ],
+  "baseline_a": "FP",
+  "baseline_b": "TN"
+ },
+ {
+  "account_id": "cm-05",
+  "tenant_id": "t_cloudmetric",
+  "at_risk": false,
+  "decoy": false,
+  "difficulty": "easy",
+  "hits": [],
+  "baseline_a": "TN",
+  "baseline_b": "TN"
+ },
+ {
+  "account_id": "cm-06",
+  "tenant_id": "t_cloudmetric",
+  "at_risk": false,
+  "decoy": false,
+  "difficulty": "easy",
+  "hits": [],
+  "baseline_a": "TN",
+  "baseline_b": "TN"
+ },
+ {
+  "account_id": "cm-07",
+  "tenant_id": "t_cloudmetric",
+  "at_risk": true,
+  "decoy": false,
+  "difficulty": "hard",
+  "hits": [],
+  "baseline_a": "FN",
+  "baseline_b": "FN"
+ },
+ {
+  "account_id": "cm-08",
+  "tenant_id": "t_cloudmetric",
+  "at_risk": false,
+  "decoy": false,
+  "difficulty": "easy",
+  "hits": [],
+  "baseline_a": "TN",
+  "baseline_b": "TN"
+ },
+ {
+  "account_id": "fd-01",
+  "tenant_id": "t_flowdesk",
+  "at_risk": true,
+  "decoy": false,
+  "difficulty": "easy",
+  "hits": [
+   "usage_drop"
+  ],
+  "baseline_a": "TP",
+  "baseline_b": "TP"
+ },
+ {
+  "account_id": "fd-02",
+  "tenant_id": "t_flowdesk",
+  "at_risk": true,
+  "decoy": false,
+  "difficulty": "medium",
+  "hits": [
+   "usage_drop",
+   "stage_downgrade",
+   "close_date_slip",
+   "champion_change"
+  ],
+  "baseline_a": "TP",
+  "baseline_b": "TP"
+ },
+ {
+  "account_id": "fd-03",
+  "tenant_id": "t_flowdesk",
+  "at_risk": true,
+  "decoy": false,
+  "difficulty": "hard",
+  "hits": [],
+  "baseline_a": "FN",
+  "baseline_b": "FN"
+ },
+ {
+  "account_id": "fd-04",
+  "tenant_id": "t_flowdesk",
+  "at_risk": false,
+  "decoy": true,
+  "difficulty": "medium",
+  "hits": [
+   "usage_drop"
+  ],
+  "baseline_a": "FP",
+  "baseline_b": "TN"
+ },
+ {
+  "account_id": "fd-05",
+  "tenant_id": "t_flowdesk",
+  "at_risk": false,
+  "decoy": false,
+  "difficulty": "easy",
+  "hits": [],
+  "baseline_a": "TN",
+  "baseline_b": "TN"
+ },
+ {
+  "account_id": "fd-06",
+  "tenant_id": "t_flowdesk",
+  "at_risk": false,
+  "decoy": false,
+  "difficulty": "easy",
+  "hits": [],
+  "baseline_a": "TN",
+  "baseline_b": "TN"
+ },
+ {
+  "account_id": "fd-07",
+  "tenant_id": "t_flowdesk",
+  "at_risk": false,
+  "decoy": true,
+  "difficulty": "medium",
+  "hits": [
+   "close_date_slip"
+  ],
+  "baseline_a": "FP",
+  "baseline_b": "FP"
+ },
+ {
+  "account_id": "fd-08",
+  "tenant_id": "t_flowdesk",
+  "at_risk": false,
+  "decoy": false,
+  "difficulty": "easy",
+  "hits": [],
+  "baseline_a": "TN",
+  "baseline_b": "TN"
+ }
+]
