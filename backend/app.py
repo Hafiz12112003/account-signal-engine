@@ -7,9 +7,12 @@ from fastapi import Body, FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from backend import settings
+from backend.api import router as api_router
 
 app = FastAPI(title="Account Signal Engine")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+
+app.include_router(api_router)
 
 bus = redis.from_url(settings.REDIS_URL, decode_responses=True)
 
@@ -45,3 +48,4 @@ def webhook(kind: str, body: Any = Body(...), x_webhook_secret: str = Header(def
     for item in items:
         bus.publish(settings.CHANNEL, json.dumps({"kind": kind, "data": item}))
     return {"accepted": len(items)}
+
