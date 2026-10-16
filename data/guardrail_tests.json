@@ -1,0 +1,87 @@
+[
+ {
+  "test": "a real citation is accepted",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "fabricated citations are all rejected",
+  "passed": true,
+  "detail": "4 of 4 rejected"
+ },
+ {
+  "test": "citations to another tenant's records are rejected",
+  "passed": true,
+  "detail": "3 of 3 rejected"
+ },
+ {
+  "test": "a finding with only fabricated citations is rejected",
+  "passed": true,
+  "detail": "rejected_invalid_citation"
+ },
+ {
+  "test": "one bad citation rejects the whole finding",
+  "passed": true,
+  "detail": "rejected_invalid_citation"
+ },
+ {
+  "test": "a finding with no citations is rejected",
+  "passed": true,
+  "detail": "rejected_no_evidence"
+ },
+ {
+  "test": "a finding with a valid citation is accepted",
+  "passed": true,
+  "detail": "accepted"
+ },
+ {
+  "test": "a low-confidence at_risk verdict downgrades to needs_review",
+  "passed": true,
+  "detail": "needs_review, downgraded=True"
+ },
+ {
+  "test": "flowdesk sees only flowdesk accounts",
+  "passed": true,
+  "detail": "3 accounts"
+ },
+ {
+  "test": "cloudmetric sees only cloudmetric accounts",
+  "passed": true,
+  "detail": "4 accounts"
+ },
+ {
+  "test": "reading another tenant's finding returns 404",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "deciding another tenant's play returns 404 and changes nothing",
+  "passed": true,
+  "detail": "status 404, play is pending"
+ },
+ {
+  "test": "a request with no tenant header returns 400",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "an unknown tenant returns 404",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "the webhook rejects a wrong secret",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "the webhook rejects an event with missing fields",
+  "passed": true,
+  "detail": ""
+ },
+ {
+  "test": "the worker refuses an event that names the wrong tenant for an account and stores nothing",
+  "passed": true,
+  "detail": "rows stored: 0"
+ }
+]
